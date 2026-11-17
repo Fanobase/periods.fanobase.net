@@ -1,0 +1,461 @@
+{
+  "dataset_labels": [
+    {
+      "key": "ckp15",
+      "label": "CKP",
+      "entries": [
+        {
+          "label": "CKP(183)",
+          "coefficient_count": 101
+        }
+      ]
+    },
+    {
+      "key": "kalashnikov19",
+      "label": "Kalashnikov",
+      "entries": [
+        {
+          "label": "CKK(134)",
+          "coefficient_count": 101
+        }
+      ]
+    }
+  ],
+  "title": "CKP(183)",
+  "period_id": "QP4-972ff9f950207a3686cc",
+  "generated_by": "scripts/build_site.py",
+  "period": [
+    "1",
+    "0",
+    "4",
+    "0",
+    "60",
+    "0",
+    "1480",
+    "0",
+    "41020",
+    "0",
+    "1247904",
+    "0",
+    "40890696",
+    "0",
+    "1409591040",
+    "0",
+    "50382163260",
+    "0",
+    "1852613173840",
+    "0",
+    "69697235196160",
+    "0",
+    "2671332479481120",
+    "0",
+    "103981177493294920",
+    "0",
+    "4100693464997164000",
+    "0",
+    "163538306524706760000",
+    "0",
+    "6585493347052077516480",
+    "0",
+    "267444831845065590601020",
+    "0",
+    "10942631151058862388500400",
+    "0",
+    "450700991895633951301090800",
+    "0",
+    "18673664747906060171454991200",
+    "0",
+    "777832290232496062083019019520",
+    "0",
+    "32556372290759930120291784137280",
+    "0",
+    "1368637143238612230726969254839200",
+    "0",
+    "57766578754558693410751161556310400",
+    "0",
+    "2447121846274285544125887178163190600",
+    "0",
+    "104015318362652264785958205069818207904",
+    "0",
+    "4434950027516564567166559164991226810016",
+    "0",
+    "189639783209292196360286551099499020114240",
+    "0",
+    "8130735598061491926361750667864217034957120",
+    "0",
+    "349469743991136565108780199156844286797578880",
+    "0",
+    "15055543192350563406052652190875794560612431296",
+    "0",
+    "650017648658347574015236321033623385579313461504",
+    "0",
+    "28121381078746106256903948385458666438807999878460",
+    "0",
+    "1218925657958412876621470904527364270133672848317040",
+    "0",
+    "52929515797941866621549272521434934221620159562193360",
+    "0",
+    "2302258129022242662010949340509639683406549085711721440",
+    "0",
+    "100300824839652552113409576110822250715180504737652368880",
+    "0",
+    "4376346778306600104297220199710511670227087206765393473280",
+    "0",
+    "191223387033344683105955290779284550751998098622801794748000",
+    "0",
+    "8366818292645073503628034162328405459690382974728123362400000",
+    "0",
+    "366555825001930350676588291862846751752030378325677092877205760",
+    "0",
+    "16078774611279179636678395061878702022232425176435623709301082240",
+    "0",
+    "706111597722233549875914402203804151496450691499415822498592404800",
+    "0",
+    "31043997510366995676779906230858558750486487004658568355309506937600",
+    "0",
+    "1366292783495191449860513430556579053956469237856248325982614733546400",
+    "0",
+    "60193717327350398710777669410334617854007858913817745462684678675315840",
+    "0",
+    "2654486812267387844919769238584410407628919450142914724350303339029317760",
+    "0",
+    "117169341889313079109827920225398012692981499876456562942421503305260422400",
+    "0",
+    "5176480016299115234117390151697298493351858780383033333109275225398069033800",
+    "0",
+    "228889770245995794470571744551974411437492698330138057099188907501896918663200",
+    "0",
+    "10129187853877299903889046853274660143632651370398138883668132736713225438936160"
+  ],
+  "order": 100,
+  "coefficient_count": 101,
+  "names": [
+    "CKP(183)",
+    "CKK(134)"
+  ],
+  "published_names": [
+    "CKP(183)",
+    "CKK(134)"
+  ],
+  "display_aliases": [
+    "CKK(134)"
+  ],
+  "type_a_families": [],
+  "origin": "published",
+  "status": "Published PF extension · degree 100",
+  "source_keys": [
+    "ckp15",
+    "kalashnikov19"
+  ],
+  "table_source_keys": [
+    "ckp15",
+    "kalashnikov19"
+  ],
+  "tentative": false,
+  "filter_source_keys": [
+    "ckp15",
+    "kalashnikov19"
+  ],
+  "proved_operator_available": false,
+  "operator_proofs": [],
+  "zenodo_operator_proofs": [],
+  "cy3": {
+    "status": "unmatched",
+    "matches": []
+  },
+  "computations": [],
+  "literature": [
+    {
+      "paper": "kalashnikov19",
+      "entry": "CKK(134)",
+      "location": "Appendix B, representative construction 134",
+      "url": "https://arxiv.org/pdf/1808.00311#nameddest=desc:134",
+      "description": "The quiver flag zero locus used as the representative in the paper. Its ambient quiver flag variety is specified by the adjacency matrix and dimension vector; the generalized partitions specify the defining homogeneous bundle.",
+      "methods": [
+        "Abelian/non-Abelian correspondence for quiver flag zero loci",
+        "Hypergeometric series and quantum Lefschetz"
+      ],
+      "dimension_vector": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "matrix_divider": 4,
+      "matrix_label": "Quiver adjacency matrix",
+      "partitions": [],
+      "source_file": "1808.00311/anc/data.txt",
+      "ancillary_coefficients": [
+        1,
+        0,
+        4,
+        0,
+        60,
+        0,
+        1480,
+        0,
+        41020,
+        0,
+        1247904,
+        0,
+        40890696,
+        0,
+        1409591040,
+        0
+      ],
+      "label": "Kalashnikov (2019)",
+      "title": "Four-dimensional Fano quiver flag zero loci",
+      "arxiv": "1808.00311",
+      "doi": "10.1098/rspa.2018.0791",
+      "paper_url": "https://arxiv.org/abs/1808.00311",
+      "compared_coefficients": 16,
+      "comparison_source": "paper ancillary data",
+      "zenodo_id": 188
+    },
+    {
+      "paper": "ckp15",
+      "entry": "CKP(183)",
+      "location": "Appendix, index-2 construction table, period 183",
+      "url": "https://arxiv.org/pdf/1409.5030#nameddest=desc:183",
+      "description": "The paper’s representative complete intersection in a smooth toric Fano ambient variety. The matrix records the toric weights on the left and the degrees of the defining line bundles on the right.",
+      "methods": [
+        "Toric complete-intersection mirror theorem",
+        "Mirror Laurent polynomial; constant-term extraction"
+      ],
+      "operator_method": "Lairez’s Griffiths–Dwork algorithm, followed by reconstruction and recurrence checks",
+      "matrix": [
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "matrix_divider": 7,
+      "matrix_label": "Toric weights | defining line bundles",
+      "source_file": "table_2.tex",
+      "source_line": 43,
+      "label": "Coates–Kasprzyk–Prince (2015)",
+      "title": "Four-dimensional Fano toric complete intersections",
+      "arxiv": "1409.5030",
+      "doi": "10.1098/rspa.2014.0704",
+      "paper_url": "https://doi.org/10.1098/rspa.2014.0704",
+      "compared_coefficients": 32,
+      "comparison_source": "Zenodo reference",
+      "zenodo_id": 188
+    }
+  ],
+  "weighted_complete_intersections": [],
+  "quiver_flag_computations": [],
+  "quiver_moduli": [],
+  "tentative_brauer": [],
+  "archive_records": [
+    {
+      "id": "zenodo-5708307:188",
+      "dataset": "zenodo-5708307",
+      "source_key": "literature",
+      "source_label": "CKP15; Kal19",
+      "source_keys": [
+        "ckp15",
+        "kalashnikov19"
+      ],
+      "method": "Published coefficients; Picard–Fuchs extension where an operator is supplied",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "CKK(134)",
+        "CKP(183)"
+      ],
+      "family_names": [],
+      "catalogue_case_ids": [],
+      "source_file": "smooth_fano_4.txt",
+      "source_sha256": "7c2c19b0aff926aa9af704ea07a1ddfffe494f108ae36f8a7221e8b7cebf1c9b",
+      "tentative": false,
+      "reference_keys": [
+        "kalashnikov19:CKK(134)",
+        "ckp15:CKP(183)"
+      ],
+      "papers": [
+        {
+          "key": "ckp15",
+          "short_label": "CKP15",
+          "label": "Coates–Kasprzyk–Prince (2015)",
+          "title": "Four-dimensional Fano toric complete intersections",
+          "arxiv": "1409.5030",
+          "url": "https://doi.org/10.1098/rspa.2014.0704",
+          "doi": "10.1098/rspa.2014.0704"
+        },
+        {
+          "key": "kalashnikov19",
+          "short_label": "Kal19",
+          "label": "Kalashnikov (2019)",
+          "title": "Four-dimensional Fano quiver flag zero loci",
+          "arxiv": "1808.00311",
+          "url": "https://arxiv.org/abs/1808.00311",
+          "doi": "10.1098/rspa.2018.0791"
+        }
+      ],
+      "original_methods": [
+        {
+          "entry": "CKK(134)",
+          "paper": "kalashnikov19",
+          "methods": [
+            "Abelian/non-Abelian correspondence for quiver flag zero loci",
+            "Hypergeometric series and quantum Lefschetz"
+          ]
+        },
+        {
+          "entry": "CKP(183)",
+          "paper": "ckp15",
+          "methods": [
+            "Toric complete-intersection mirror theorem",
+            "Mirror Laurent polynomial; constant-term extraction"
+          ]
+        }
+      ],
+      "repository": {
+        "name": "Zenodo",
+        "url": "https://zenodo.org/records/5708307",
+        "doi": "10.5281/zenodo.5708307",
+        "record_id": 188
+      },
+      "database_id": 188,
+      "seed_count": 32,
+      "description": "This period sequence is realised by a quiver flag variety with dimension vector [1,1,1,1] and adjacency matrix [[0,1,2,3],[0,0,0,0],[0,0,0,0],[0,1,0,0]].",
+      "source_pf_proven": false,
+      "proved_operator_available": false,
+      "operator_supplied": true
+    }
+  ],
+  "observation_count": 1,
+  "source_observations": [
+    {
+      "id": "zenodo-5708307:188",
+      "dataset": "zenodo-5708307",
+      "source_key": "literature",
+      "source_label": "CKP15; Kal19",
+      "source_keys": [
+        "ckp15",
+        "kalashnikov19"
+      ],
+      "method": "Published coefficients; Picard–Fuchs extension where an operator is supplied",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "CKK(134)",
+        "CKP(183)"
+      ],
+      "family_names": [],
+      "catalogue_case_ids": [],
+      "source_file": "smooth_fano_4.txt",
+      "source_sha256": "7c2c19b0aff926aa9af704ea07a1ddfffe494f108ae36f8a7221e8b7cebf1c9b",
+      "tentative": false,
+      "reference_keys": [
+        "kalashnikov19:CKK(134)",
+        "ckp15:CKP(183)"
+      ],
+      "papers": [
+        {
+          "key": "ckp15",
+          "short_label": "CKP15",
+          "label": "Coates–Kasprzyk–Prince (2015)",
+          "title": "Four-dimensional Fano toric complete intersections",
+          "arxiv": "1409.5030",
+          "url": "https://doi.org/10.1098/rspa.2014.0704",
+          "doi": "10.1098/rspa.2014.0704"
+        },
+        {
+          "key": "kalashnikov19",
+          "short_label": "Kal19",
+          "label": "Kalashnikov (2019)",
+          "title": "Four-dimensional Fano quiver flag zero loci",
+          "arxiv": "1808.00311",
+          "url": "https://arxiv.org/abs/1808.00311",
+          "doi": "10.1098/rspa.2018.0791"
+        }
+      ],
+      "original_methods": [
+        {
+          "entry": "CKK(134)",
+          "paper": "kalashnikov19",
+          "methods": [
+            "Abelian/non-Abelian correspondence for quiver flag zero loci",
+            "Hypergeometric series and quantum Lefschetz"
+          ]
+        },
+        {
+          "entry": "CKP(183)",
+          "paper": "ckp15",
+          "methods": [
+            "Toric complete-intersection mirror theorem",
+            "Mirror Laurent polynomial; constant-term extraction"
+          ]
+        }
+      ],
+      "repository": {
+        "name": "Zenodo",
+        "url": "https://zenodo.org/records/5708307",
+        "doi": "10.5281/zenodo.5708307",
+        "record_id": 188
+      },
+      "database_id": 188,
+      "seed_count": 32,
+      "description": "This period sequence is realised by a quiver flag variety with dimension vector [1,1,1,1] and adjacency matrix [[0,1,2,3],[0,0,0,0],[0,0,0,0],[0,1,0,0]].",
+      "source_pf_proven": false,
+      "proved_operator_available": false,
+      "operator_supplied": true
+    }
+  ],
+  "compatible_longer_period_ids": [],
+  "sequence_sha256": "972ff9f950207a3686cc38088b384a806f404621f702a74ecea46369c0d4f6e5",
+  "download": "downloads/periods/qp4-972ff9f950207a3686cc.json",
+  "description": "Regularized quantum period QP4-972ff9f950207a3686cc: 101 coefficients, constructions, references and computation methods.",
+  "aliases": []
+}

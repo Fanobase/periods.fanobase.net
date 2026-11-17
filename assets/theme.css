@@ -1,0 +1,116 @@
+/* Fanobase palette, loaded after the site's layout styles. */
+:root {
+  --palette-page: #f7f9fb;
+  --palette-page-rgb: 247, 249, 251;
+  --palette-surface: #ffffff;
+  --palette-text: #333333;
+  --palette-text-rgb: 51, 51, 51;
+  --palette-muted: #596977;
+  --palette-muted-rgb: 89, 105, 119;
+  --palette-nav-rgb: 51, 51, 51;
+  --palette-nav-link: #81c3fc;
+  --palette-nav-hover: #d9edf7;
+  --palette-header: #cfe7fb;
+  --palette-border: #cddce7;
+  --palette-soft: #edf4fa;
+  --palette-table-header: #f8f9fa;
+  --palette-link: #c0392b;
+  --palette-link-rgb: 192, 57, 43;
+  --palette-link-hover: #922b21;
+  --palette-link-hover-rgb: 146, 43, 33;
+  --palette-red: #c0392b;
+  --palette-green: #27ae60;
+}
+/* Keep Bootstrap components in the same palette. */
+body {
+  --bs-body-bg: var(--palette-page);
+  --bs-body-bg-rgb: var(--palette-page-rgb);
+  --bs-body-color: var(--palette-text);
+  --bs-body-color-rgb: var(--palette-text-rgb);
+  --bs-secondary-color: var(--palette-muted);
+  --bs-secondary-color-rgb: var(--palette-muted-rgb);
+  --bs-tertiary-bg: var(--palette-soft);
+  --bs-border-color: var(--palette-border);
+  --bs-link-color: var(--palette-link);
+  --bs-link-color-rgb: var(--palette-link-rgb);
+  --bs-link-hover-color: var(--palette-link-hover);
+  --bs-link-hover-color-rgb: var(--palette-link-hover-rgb);
+  --bs-primary: var(--palette-link);
+  --bs-primary-rgb: var(--palette-link-rgb);
+  --bs-light-rgb: var(--palette-page-rgb);
+  --bs-dark-rgb: var(--palette-nav-rgb);
+}
+nav#menu a.nav-link { color: var(--palette-nav-link); }
+nav#menu a.nav-link:hover { color: var(--palette-nav-hover); }
+div#title { background-color: var(--palette-header); border-bottom-color: var(--palette-border); }
+div#title h1 a, div#title h1 a:hover { color: var(--palette-text); }
+div#title h1 a:hover { text-decoration-color: var(--palette-red); }
+div#title p#slogan { color: var(--palette-muted); }
+.t-red { color: var(--palette-red); }
+.t-green { color: var(--palette-green); }
+div#title .t-green {
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: 400;
+}
+fieldset { background-color: var(--palette-surface); border-color: var(--palette-border); }
+fieldset legend { color: var(--palette-muted); border-bottom-color: var(--palette-border); }
+.fieldset-toggle:focus-visible { outline-color: var(--palette-link); }
+.card { --bs-card-bg: var(--palette-surface); --bs-card-color: var(--palette-text); --bs-card-border-color: var(--palette-border); }
+.list-group {
+  --bs-list-group-bg: var(--palette-surface);
+  --bs-list-group-color: var(--palette-text);
+  --bs-list-group-border-color: var(--palette-border);
+  --bs-list-group-action-color: var(--palette-text);
+  --bs-list-group-action-hover-color: var(--palette-text);
+  --bs-list-group-action-hover-bg: var(--palette-soft);
+  --bs-list-group-action-active-color: var(--palette-text);
+  --bs-list-group-action-active-bg: var(--palette-header);
+  --bs-list-group-active-bg: var(--palette-link);
+  --bs-list-group-active-border-color: var(--palette-link);
+}
+.btn-outline-primary {
+  --bs-btn-color: var(--palette-link);
+  --bs-btn-border-color: var(--palette-link);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--palette-link);
+  --bs-btn-hover-border-color: var(--palette-link);
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--palette-link-hover);
+  --bs-btn-active-border-color: var(--palette-link-hover);
+  --bs-btn-disabled-color: var(--palette-link);
+  --bs-btn-disabled-border-color: var(--palette-link);
+  --bs-btn-focus-shadow-rgb: var(--palette-link-rgb);
+}
+.btn-primary {
+  --bs-btn-bg: var(--palette-link);
+  --bs-btn-border-color: var(--palette-link);
+  --bs-btn-hover-bg: var(--palette-link-hover);
+  --bs-btn-hover-border-color: var(--palette-link-hover);
+  --bs-btn-active-bg: var(--palette-link-hover);
+  --bs-btn-active-border-color: var(--palette-link-hover);
+  --bs-btn-disabled-bg: var(--palette-link);
+  --bs-btn-disabled-border-color: var(--palette-link);
+  --bs-btn-focus-shadow-rgb: var(--palette-link-rgb);
+}
+.form-control, .form-select { background-color: var(--palette-surface); }
+.form-control:focus, .form-select:focus {
+  background-color: var(--palette-surface);
+  border-color: var(--palette-link);
+  box-shadow: 0 0 0 .25rem rgba(var(--palette-link-rgb), .25);
+}
+.form-control::placeholder { color: var(--palette-muted); }
+.form-check-input:checked { background-color: var(--palette-link); border-color: var(--palette-link); }
+.fourfold-nav a, .dynkin-labels { color: var(--palette-muted); }
+.fourfold-nav a:hover, .presentation-list a[aria-current] { color: var(--palette-text); }
+.copy-btn:hover { color: var(--palette-muted); }
+.copy-btn.copied { color: var(--palette-green); }
+.series-expansion:hover, .series-expansion:focus-visible { background-color: var(--palette-soft); }
+.table thead { --bs-table-bg: var(--palette-table-header); }
+.database-table thead th { background-color: var(--palette-table-header); box-shadow: inset 0 -1px var(--palette-border); }
+.dynkin-edges { stroke: var(--palette-text); }
+.dynkin-labels { fill: var(--palette-muted); }
+.spectrum-point { fill: var(--palette-red); }
+.spectrum-point.is-hovered, .spectrum-point.is-focused, .spectrum-highlight { fill: var(--palette-header); stroke: var(--palette-link); }
+.eigenvalue-table tr.is-hovered > td, .eigenvalue-table tr.is-focused > td { background-color: var(--palette-soft); }

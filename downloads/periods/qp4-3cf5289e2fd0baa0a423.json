@@ -1,0 +1,837 @@
+{
+  "dataset_labels": [
+    {
+      "key": "ckp15",
+      "label": "CKP",
+      "entries": [
+        {
+          "label": "CKP(406)",
+          "coefficient_count": 101
+        }
+      ]
+    },
+    {
+      "key": "kalashnikov19",
+      "label": "Kalashnikov",
+      "entries": [
+        {
+          "label": "CKK(317)",
+          "coefficient_count": 101
+        }
+      ]
+    },
+    {
+      "key": "type-a",
+      "label": "type-a.fanobase.net",
+      "entries": [
+        {
+          "label": "4-214-49-c",
+          "coefficient_count": 101
+        }
+      ]
+    }
+  ],
+  "title": "CKP(406)",
+  "period_id": "QP4-3cf5289e2fd0baa0a423",
+  "generated_by": "scripts/build_site.py",
+  "period": [
+    "1",
+    "0",
+    "6",
+    "24",
+    "210",
+    "1500",
+    "12660",
+    "107940",
+    "961170",
+    "8783880",
+    "81881856",
+    "777823200",
+    "7492188396",
+    "73108539504",
+    "720890064180",
+    "7175851106424",
+    "72010265222610",
+    "727884949478544",
+    "7404805436064036",
+    "75764466941351760",
+    "779232644880707160",
+    "8052067026305959800",
+    "83560680196416521280",
+    "870544604192955995160",
+    "9101948238440139102540",
+    "95479131973835233260000",
+    "1004625056992934524541400",
+    "10600435319898048371448000",
+    "112145184909527545702577700",
+    "1189314752489700030116344800",
+    "12641598476025016484371286160",
+    "134658171042255694929259180800",
+    "1437246985843348779538808073810",
+    "15369004007016574455816880379040",
+    "164637175429642816816876880142300",
+    "1766583913617052399245598292179440",
+    "18985618879622006828343374487531900",
+    "204344306272781768419067255617922040",
+    "2202488695527994218895629775980095160",
+    "23770967933473577856640249836741527400",
+    "256881650871104455933988744242393888920",
+    "2779364212227824080606012511276282686800",
+    "30106414198980596281608126693177066866520",
+    "326475477652266488362843864193226250625280",
+    "3544038321572841930849132752141985850900800",
+    "38510782915735627133750516142364377124988880",
+    "418874074362878801477929648641301538967683400",
+    "4560202318700502993906406814901209292648790080",
+    "49689845010238241573843132135827346271286089420",
+    "541899177212582486056998585908235308320154798400",
+    "5914554104834663146458330964330733026977245186856",
+    "64604742950272605504867070190207319255157977876000",
+    "706208068732785689739521766954766824478103190192936",
+    "7725285916279975267301450178786223165202553890779344",
+    "84566523574969734368710342068247007396426754716037360",
+    "926346506487649097911208828629127814763919684175721200",
+    "10153813061175728776908347426587670195343518043828484260",
+    "111366799512449528623916716358734903635684022016979066240",
+    "1222204494130160890338189668238172592498005080123587349720",
+    "13420995475248069413583068598270560281198713563781767230080",
+    "147458528418179237828320091343819960438451734122894945582496",
+    "1621031226610026724508145513619740390091443568667683695157200",
+    "17829599177779821145130576467882744849107595829428364966682336",
+    "196206435485306659712236254286695876528199274673250887918162864",
+    "2160227441497732098713711102761414843321135449963011359178344530",
+    "23795436954363742355159618702615510584982803718332169071729091904",
+    "262234347607717781529882208514950124425981239097481103167830851660",
+    "2891220028401985754311151855173148192642417031825635483557465733424",
+    "31890596745303006518295872212062542938866273640197941084997190901556",
+    "351907552377517540529875959603868610116567375091843595241137135440760",
+    "3884845116148767575110629028209932956863270346368569589178249345463880",
+    "42903524637154844568583741309418034459171291472134277744226129130467400",
+    "474003500957229264090801746856337141320925338798524394230920247637579900",
+    "5238836086278390430367384269965281827728495705890921195399122879088570640",
+    "57922635250672236501603160493781789484572450404431073887950305095876039440",
+    "640645514505839487693017167716963222860081365520319817180085743412761679424",
+    "7088251938961531337313130839909154498817884596296443205302910446817814270600",
+    "78452798695688927684791791365698075900392520940263372240415198409439974082944",
+    "868604130094801134146256424354185352525902630014000282620676867296655628364776",
+    "9620017211106017687557213402922376163260142814895392174229527992091060107509840",
+    "106577814706152774295744663042558578996767137205953541664771965722109951609262360",
+    "1181112862607461533752103429082133975029027203029677695168411554750175269887355040",
+    "13093216800362417953012109556531408790811002072775456159884264235591100461132526720",
+    "145187275156968558967825576215113587985125243314175537723319495770687230250798480320",
+    "1610404446311349642295762511166558503688033349052196062499425001320993243192558952120",
+    "17867453485974861076838873484661297569369923804087883427551228150738228898464394918944",
+    "198293663187659684784659422662233262249414902525508601974998620109464530223151561622000",
+    "2201257092932684103061599716613880667494944443658096310080645790178985157696857344882304",
+    "24442511656894841083734145997096359241892482441586700898850448540093376385560456901060096",
+    "271476027244442775654951250146766682181291233533534217381353047436218258111577539876186720",
+    "3015957913694780645632107943650777575307248311942636665261160991429036923500358340773025136",
+    "33513889463105140942327314031533849563240938209329174776068689380358159407210869547392613440",
+    "372501355432606191599409900814718756043493523451884688273621898771460601911004732179879492616",
+    "4141256477793095690180474778615449378413700932331069185054117410519438200698916499061567672704",
+    "46050621337753099177011277208148930552647797277432158244374068236601603787264215910027361570640",
+    "512195634059119487192611913792720283054017891759938538346384688885507212911125026173179614310560",
+    "5698115442852365106512998465487894692839343555680286325625650199911835351445802785285631661809100",
+    "63404437318609526880883837311519836716801523249429479482638546343560607999791487548715725690336640",
+    "705666016482067590329822557580654986196325586435451006509770063120570768538711049358236103024378120",
+    "7855395508544087040693881291292103687284592949312106784533438452604154347614410358572617193003241760",
+    "87463011705456104617945264466966148030337078316732619902195434965461973579597519096634698963767183160"
+  ],
+  "order": 100,
+  "coefficient_count": 101,
+  "names": [
+    "CKP(406)",
+    "CKK(317)",
+    "4-214-49-c"
+  ],
+  "published_names": [
+    "CKP(406)",
+    "CKK(317)"
+  ],
+  "display_aliases": [
+    "CKK(317)"
+  ],
+  "type_a_families": [
+    "4-214-49-c"
+  ],
+  "origin": "computed",
+  "status": "Computed · degree 100",
+  "source_keys": [
+    "ckp15",
+    "kalashnikov19",
+    "type-a"
+  ],
+  "table_source_keys": [
+    "ckp15",
+    "kalashnikov19",
+    "type-a"
+  ],
+  "tentative": false,
+  "filter_source_keys": [
+    "ckp15",
+    "kalashnikov19",
+    "type-a"
+  ],
+  "proved_operator_available": true,
+  "operator_proofs": [
+    {
+      "family": "4-214-49-c",
+      "archive_entry": "F0000152.json",
+      "system_sha256": "76cd5f17f0b30565016403cb8250545a8d70f976a19c0b6e5a2e58b6c75fbcca",
+      "proof_status": "proved_from_exact_quantum_connection",
+      "certificate_check": "exact rational row-vector identity checked by the source generator"
+    }
+  ],
+  "zenodo_operator_proofs": [
+    {
+      "family": "4-214-49-c",
+      "archive_entry": "F0000152.json",
+      "system_sha256": "76cd5f17f0b30565016403cb8250545a8d70f976a19c0b6e5a2e58b6c75fbcca",
+      "proof_status": "proved_from_exact_quantum_connection",
+      "certificate_check": "exact rational row-vector identity checked by the source generator",
+      "source_observation": "zenodo-5708307:414",
+      "comparison": "identical operator over Q(t), up to nonzero left scalar",
+      "inference": "proved operator for the computed geometric realization of the period; no deformation identification inferred"
+    }
+  ],
+  "cy3": {
+    "status": "unmatched",
+    "matches": []
+  },
+  "computations": [
+    {
+      "id": "type-a-hpc:1135",
+      "dataset": "type-a-hpc",
+      "source_key": "type-a",
+      "source_label": "Type A",
+      "source_keys": [
+        "type-a"
+      ],
+      "method": "Exact virtual localization; quantum-connection recurrence",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "4-214-49-c"
+      ],
+      "model_label": "3234.332ok",
+      "family_names": [
+        "4-214-49-c"
+      ],
+      "catalogue_case_ids": [],
+      "validation": "all_exact_checks_passed",
+      "source_file": "periods.json",
+      "source_sha256": "3f30709c953d06e3c41ee22ab876ec6f259385e5601e3d3c0967a33433196fd8",
+      "tentative": false,
+      "captures": [
+        "type-a-hpc"
+      ],
+      "observation_ids": [
+        "type-a-hpc:1135"
+      ]
+    },
+    {
+      "id": "type-a-hpc:1376",
+      "dataset": "type-a-hpc",
+      "source_key": "type-a",
+      "source_label": "Type A",
+      "source_keys": [
+        "type-a"
+      ],
+      "method": "Exact virtual localization; quantum-connection recurrence",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "4-214-49-c"
+      ],
+      "model_label": "13032.6w9w8w0",
+      "family_names": [
+        "4-214-49-c"
+      ],
+      "catalogue_case_ids": [],
+      "validation": "all_exact_checks_passed",
+      "source_file": "periods.json",
+      "source_sha256": "3f30709c953d06e3c41ee22ab876ec6f259385e5601e3d3c0967a33433196fd8",
+      "tentative": false,
+      "captures": [
+        "type-a-hpc"
+      ],
+      "observation_ids": [
+        "type-a-hpc:1376"
+      ]
+    },
+    {
+      "id": "type-a-hpc:152",
+      "dataset": "type-a-hpc",
+      "source_key": "type-a",
+      "source_label": "Type A",
+      "source_keys": [
+        "type-a"
+      ],
+      "method": "Exact virtual localization; quantum-connection recurrence",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "4-214-49-c"
+      ],
+      "model_label": "1203030.wNwIw9w2",
+      "family_names": [
+        "4-214-49-c"
+      ],
+      "catalogue_case_ids": [],
+      "validation": "all_exact_checks_passed",
+      "source_file": "periods.json",
+      "source_sha256": "3f30709c953d06e3c41ee22ab876ec6f259385e5601e3d3c0967a33433196fd8",
+      "tentative": false,
+      "captures": [
+        "type-a-hpc"
+      ],
+      "observation_ids": [
+        "type-a-hpc:152"
+      ]
+    },
+    {
+      "id": "type-a-hpc:1543",
+      "dataset": "type-a-hpc",
+      "source_key": "type-a",
+      "source_label": "Type A",
+      "source_keys": [
+        "type-a"
+      ],
+      "method": "Exact virtual localization; quantum-connection recurrence",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "4-214-49-c"
+      ],
+      "model_label": "203034.55wHw7w6",
+      "family_names": [
+        "4-214-49-c"
+      ],
+      "catalogue_case_ids": [],
+      "validation": "all_exact_checks_passed",
+      "source_file": "periods.json",
+      "source_sha256": "3f30709c953d06e3c41ee22ab876ec6f259385e5601e3d3c0967a33433196fd8",
+      "tentative": false,
+      "captures": [
+        "type-a-hpc"
+      ],
+      "observation_ids": [
+        "type-a-hpc:1543"
+      ]
+    },
+    {
+      "id": "type-a-hpc:880",
+      "dataset": "type-a-hpc",
+      "source_key": "type-a",
+      "source_label": "Type A",
+      "source_keys": [
+        "type-a"
+      ],
+      "method": "Exact virtual localization; quantum-connection recurrence",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "4-214-49-c"
+      ],
+      "model_label": "12034.rmi",
+      "family_names": [
+        "4-214-49-c"
+      ],
+      "catalogue_case_ids": [],
+      "validation": "all_exact_checks_passed",
+      "source_file": "periods.json",
+      "source_sha256": "3f30709c953d06e3c41ee22ab876ec6f259385e5601e3d3c0967a33433196fd8",
+      "tentative": false,
+      "captures": [
+        "type-a-hpc"
+      ],
+      "observation_ids": [
+        "type-a-hpc:880"
+      ]
+    }
+  ],
+  "literature": [
+    {
+      "paper": "kalashnikov19",
+      "entry": "CKK(317)",
+      "location": "Appendix B, representative construction 317",
+      "url": "https://arxiv.org/pdf/1808.00311#nameddest=desc:317",
+      "description": "The quiver flag zero locus used as the representative in the paper. Its ambient quiver flag variety is specified by the adjacency matrix and dimension vector; the generalized partitions specify the defining homogeneous bundle.",
+      "methods": [
+        "Abelian/non-Abelian correspondence for quiver flag zero loci",
+        "Hypergeometric series and quantum Lefschetz"
+      ],
+      "dimension_vector": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          2,
+          2,
+          1,
+          0
+        ]
+      ],
+      "matrix_divider": 5,
+      "matrix_label": "Quiver adjacency matrix",
+      "partitions": [
+        [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            0
+          ],
+          [
+            0
+          ]
+        ],
+        [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            1
+          ],
+          [
+            -1
+          ]
+        ]
+      ],
+      "source_file": "1808.00311/anc/data.txt",
+      "ancillary_coefficients": [
+        1,
+        0,
+        6,
+        24,
+        210,
+        1500,
+        12660,
+        107940,
+        961170,
+        8783880,
+        81881856,
+        777823200,
+        7492188396,
+        73108539504,
+        720890064180,
+        7175851106424
+      ],
+      "label": "Kalashnikov (2019)",
+      "title": "Four-dimensional Fano quiver flag zero loci",
+      "arxiv": "1808.00311",
+      "doi": "10.1098/rspa.2018.0791",
+      "paper_url": "https://arxiv.org/abs/1808.00311",
+      "compared_coefficients": 16,
+      "comparison_source": "paper ancillary data",
+      "zenodo_id": 414
+    },
+    {
+      "paper": "ckp15",
+      "entry": "CKP(406)",
+      "location": "Appendix, index-1 construction table, period 406",
+      "url": "https://arxiv.org/pdf/1409.5030#nameddest=desc:406",
+      "description": "The paper’s representative complete intersection in a smooth toric Fano ambient variety. The matrix records the toric weights on the left and the degrees of the defining line bundles on the right.",
+      "methods": [
+        "Toric complete-intersection mirror theorem",
+        "Mirror Laurent polynomial; constant-term extraction"
+      ],
+      "operator_method": "Lairez’s Griffiths–Dwork algorithm, followed by reconstruction and recurrence checks",
+      "matrix": [
+        [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      ],
+      "matrix_divider": 10,
+      "matrix_label": "Toric weights | defining line bundles",
+      "source_file": "table_1.tex",
+      "source_line": 665,
+      "label": "Coates–Kasprzyk–Prince (2015)",
+      "title": "Four-dimensional Fano toric complete intersections",
+      "arxiv": "1409.5030",
+      "doi": "10.1098/rspa.2014.0704",
+      "paper_url": "https://doi.org/10.1098/rspa.2014.0704",
+      "compared_coefficients": 32,
+      "comparison_source": "Zenodo reference",
+      "zenodo_id": 414
+    }
+  ],
+  "weighted_complete_intersections": [],
+  "quiver_flag_computations": [],
+  "quiver_moduli": [],
+  "tentative_brauer": [],
+  "archive_records": [
+    {
+      "id": "zenodo-5708307:414",
+      "dataset": "zenodo-5708307",
+      "source_key": "literature",
+      "source_label": "CKP15; Kal19",
+      "source_keys": [
+        "ckp15",
+        "kalashnikov19"
+      ],
+      "method": "Published coefficients; Picard–Fuchs extension where an operator is supplied",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "CKK(317)",
+        "CKP(406)"
+      ],
+      "family_names": [],
+      "catalogue_case_ids": [],
+      "source_file": "smooth_fano_4.txt",
+      "source_sha256": "7c2c19b0aff926aa9af704ea07a1ddfffe494f108ae36f8a7221e8b7cebf1c9b",
+      "tentative": false,
+      "reference_keys": [
+        "kalashnikov19:CKK(317)",
+        "ckp15:CKP(406)"
+      ],
+      "papers": [
+        {
+          "key": "ckp15",
+          "short_label": "CKP15",
+          "label": "Coates–Kasprzyk–Prince (2015)",
+          "title": "Four-dimensional Fano toric complete intersections",
+          "arxiv": "1409.5030",
+          "url": "https://doi.org/10.1098/rspa.2014.0704",
+          "doi": "10.1098/rspa.2014.0704"
+        },
+        {
+          "key": "kalashnikov19",
+          "short_label": "Kal19",
+          "label": "Kalashnikov (2019)",
+          "title": "Four-dimensional Fano quiver flag zero loci",
+          "arxiv": "1808.00311",
+          "url": "https://arxiv.org/abs/1808.00311",
+          "doi": "10.1098/rspa.2018.0791"
+        }
+      ],
+      "original_methods": [
+        {
+          "entry": "CKK(317)",
+          "paper": "kalashnikov19",
+          "methods": [
+            "Abelian/non-Abelian correspondence for quiver flag zero loci",
+            "Hypergeometric series and quantum Lefschetz"
+          ]
+        },
+        {
+          "entry": "CKP(406)",
+          "paper": "ckp15",
+          "methods": [
+            "Toric complete-intersection mirror theorem",
+            "Mirror Laurent polynomial; constant-term extraction"
+          ]
+        }
+      ],
+      "repository": {
+        "name": "Zenodo",
+        "url": "https://zenodo.org/records/5708307",
+        "doi": "10.5281/zenodo.5708307",
+        "record_id": 414
+      },
+      "database_id": 414,
+      "seed_count": 32,
+      "description": "This period sequence is realised by a quiver flag zero locus with dimension vector [1,1,1,1,1], adjacency matrix [[0,0,0,1,3],[0,0,1,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,2,2,1,0]], and sequence of generalised partitions [[[0],[1],[0],[0]],[[0],[1],[1],[-1]]].",
+      "source_pf_proven": false,
+      "proved_operator_available": true,
+      "operator_supplied": true
+    }
+  ],
+  "observation_count": 6,
+  "source_observations": [
+    {
+      "id": "type-a-hpc:1135",
+      "dataset": "type-a-hpc",
+      "source_key": "type-a",
+      "source_label": "Type A",
+      "source_keys": [
+        "type-a"
+      ],
+      "method": "Exact virtual localization; quantum-connection recurrence",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "4-214-49-c"
+      ],
+      "model_label": "3234.332ok",
+      "family_names": [
+        "4-214-49-c"
+      ],
+      "catalogue_case_ids": [],
+      "validation": "all_exact_checks_passed",
+      "source_file": "periods.json",
+      "source_sha256": "3f30709c953d06e3c41ee22ab876ec6f259385e5601e3d3c0967a33433196fd8",
+      "tentative": false
+    },
+    {
+      "id": "type-a-hpc:1376",
+      "dataset": "type-a-hpc",
+      "source_key": "type-a",
+      "source_label": "Type A",
+      "source_keys": [
+        "type-a"
+      ],
+      "method": "Exact virtual localization; quantum-connection recurrence",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "4-214-49-c"
+      ],
+      "model_label": "13032.6w9w8w0",
+      "family_names": [
+        "4-214-49-c"
+      ],
+      "catalogue_case_ids": [],
+      "validation": "all_exact_checks_passed",
+      "source_file": "periods.json",
+      "source_sha256": "3f30709c953d06e3c41ee22ab876ec6f259385e5601e3d3c0967a33433196fd8",
+      "tentative": false
+    },
+    {
+      "id": "type-a-hpc:152",
+      "dataset": "type-a-hpc",
+      "source_key": "type-a",
+      "source_label": "Type A",
+      "source_keys": [
+        "type-a"
+      ],
+      "method": "Exact virtual localization; quantum-connection recurrence",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "4-214-49-c"
+      ],
+      "model_label": "1203030.wNwIw9w2",
+      "family_names": [
+        "4-214-49-c"
+      ],
+      "catalogue_case_ids": [],
+      "validation": "all_exact_checks_passed",
+      "source_file": "periods.json",
+      "source_sha256": "3f30709c953d06e3c41ee22ab876ec6f259385e5601e3d3c0967a33433196fd8",
+      "tentative": false
+    },
+    {
+      "id": "type-a-hpc:1543",
+      "dataset": "type-a-hpc",
+      "source_key": "type-a",
+      "source_label": "Type A",
+      "source_keys": [
+        "type-a"
+      ],
+      "method": "Exact virtual localization; quantum-connection recurrence",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "4-214-49-c"
+      ],
+      "model_label": "203034.55wHw7w6",
+      "family_names": [
+        "4-214-49-c"
+      ],
+      "catalogue_case_ids": [],
+      "validation": "all_exact_checks_passed",
+      "source_file": "periods.json",
+      "source_sha256": "3f30709c953d06e3c41ee22ab876ec6f259385e5601e3d3c0967a33433196fd8",
+      "tentative": false
+    },
+    {
+      "id": "type-a-hpc:880",
+      "dataset": "type-a-hpc",
+      "source_key": "type-a",
+      "source_label": "Type A",
+      "source_keys": [
+        "type-a"
+      ],
+      "method": "Exact virtual localization; quantum-connection recurrence",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "4-214-49-c"
+      ],
+      "model_label": "12034.rmi",
+      "family_names": [
+        "4-214-49-c"
+      ],
+      "catalogue_case_ids": [],
+      "validation": "all_exact_checks_passed",
+      "source_file": "periods.json",
+      "source_sha256": "3f30709c953d06e3c41ee22ab876ec6f259385e5601e3d3c0967a33433196fd8",
+      "tentative": false
+    },
+    {
+      "id": "zenodo-5708307:414",
+      "dataset": "zenodo-5708307",
+      "source_key": "literature",
+      "source_label": "CKP15; Kal19",
+      "source_keys": [
+        "ckp15",
+        "kalashnikov19"
+      ],
+      "method": "Published coefficients; Picard–Fuchs extension where an operator is supplied",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "CKK(317)",
+        "CKP(406)"
+      ],
+      "family_names": [],
+      "catalogue_case_ids": [],
+      "source_file": "smooth_fano_4.txt",
+      "source_sha256": "7c2c19b0aff926aa9af704ea07a1ddfffe494f108ae36f8a7221e8b7cebf1c9b",
+      "tentative": false,
+      "reference_keys": [
+        "kalashnikov19:CKK(317)",
+        "ckp15:CKP(406)"
+      ],
+      "papers": [
+        {
+          "key": "ckp15",
+          "short_label": "CKP15",
+          "label": "Coates–Kasprzyk–Prince (2015)",
+          "title": "Four-dimensional Fano toric complete intersections",
+          "arxiv": "1409.5030",
+          "url": "https://doi.org/10.1098/rspa.2014.0704",
+          "doi": "10.1098/rspa.2014.0704"
+        },
+        {
+          "key": "kalashnikov19",
+          "short_label": "Kal19",
+          "label": "Kalashnikov (2019)",
+          "title": "Four-dimensional Fano quiver flag zero loci",
+          "arxiv": "1808.00311",
+          "url": "https://arxiv.org/abs/1808.00311",
+          "doi": "10.1098/rspa.2018.0791"
+        }
+      ],
+      "original_methods": [
+        {
+          "entry": "CKK(317)",
+          "paper": "kalashnikov19",
+          "methods": [
+            "Abelian/non-Abelian correspondence for quiver flag zero loci",
+            "Hypergeometric series and quantum Lefschetz"
+          ]
+        },
+        {
+          "entry": "CKP(406)",
+          "paper": "ckp15",
+          "methods": [
+            "Toric complete-intersection mirror theorem",
+            "Mirror Laurent polynomial; constant-term extraction"
+          ]
+        }
+      ],
+      "repository": {
+        "name": "Zenodo",
+        "url": "https://zenodo.org/records/5708307",
+        "doi": "10.5281/zenodo.5708307",
+        "record_id": 414
+      },
+      "database_id": 414,
+      "seed_count": 32,
+      "description": "This period sequence is realised by a quiver flag zero locus with dimension vector [1,1,1,1,1], adjacency matrix [[0,0,0,1,3],[0,0,1,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,2,2,1,0]], and sequence of generalised partitions [[[0],[1],[0],[0]],[[0],[1],[1],[-1]]].",
+      "source_pf_proven": false,
+      "proved_operator_available": true,
+      "operator_supplied": true
+    }
+  ],
+  "compatible_longer_period_ids": [],
+  "sequence_sha256": "3cf5289e2fd0baa0a423c36c0690e6d8d1cd35f9580d6ede99acff48dc092246",
+  "download": "downloads/periods/qp4-3cf5289e2fd0baa0a423.json",
+  "description": "Regularized quantum period QP4-3cf5289e2fd0baa0a423: 101 coefficients, constructions, references and computation methods.",
+  "aliases": []
+}

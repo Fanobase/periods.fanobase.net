@@ -1,0 +1,5796 @@
+{
+  "summary": {
+    "method": "cydb-rational-pullback-v1",
+    "database_records": 561,
+    "period_records": 955,
+    "statuses": {
+      "operator_identity": 46,
+      "coefficient_match": 0,
+      "unmatched": 909,
+      "insufficient_data": 0
+    },
+    "matched_database_records": 39,
+    "operator_identities_with_proved_fano_operator": 42,
+    "minimum_primitive_coefficients": 16,
+    "maximum_variable_power": 5,
+    "source": {
+      "source": "Calabi–Yau differential operator database (CYDB), Mainz",
+      "attribution": "Duco van Straten and Pavel Metelitsyn",
+      "url": "https://cydb.mathematik.uni-mainz.de/?format=jsonpassthrough&m=lookup&search=true&Spectrum0=0%2C0%2C0%2C0",
+      "captured_utc": "2026-11-04T05:47:24.080866+00:00",
+      "selection": "Spectrum at zero: 0,0,0,0 (maximally unipotent monodromy)",
+      "record_count": 561,
+      "response_sha256": "3b49c2ee2a621f97868280627a77ac5b31d46019dd508732357227626f1aaa3f",
+      "files": {
+        "records.json": "a10454ccdcd300a0ca1b7249d598ae51cab2101db3ae7534ebe49d59ad79d2a9",
+        "response.json.gz": "6bc5e2ea830bd06fa1f0e944944c54622d63c3c668735208b9b559450bd1dee0"
+      }
+    },
+    "scope": "Direct and centered rational pullbacks with rational scale and variable powers 1–5. No match means no match in this snapshot under these transformations; it does not exclude a Calabi–Yau interpretation. A period or operator match does not identify a deformation family. CYDB topological numbers are reported source data, not inferred invariants of the Fano section."
+  },
+  "periods": {
+    "QP4-007569d8ce17ed200dde": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-01300ec533f52cf93e7b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-01477c86f45a4aaa3f99": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-015a1b20d1ec218f99f4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-01adec8862d7e89cb503": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-01f0fb4e17fc4ecce52f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-02cff759a47ac1250913": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-030c94c766c8ba111b84": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-032e32b5bf928e21a0f1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0398db4c52e0ccf3f556": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-03d542fd4307742e6a76": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-03f7e444ca1c8e16da40": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-041c4c52db59645a4750": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-041c4e5fd1a7b7c1c483": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-041fb24314787044c088": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0466e78c8d9fddc6aa37": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-053e2a85bea7dbf7aa89": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-05bfb90a7fd56795a0ee": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-060efd58c93eda91fada": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-062e98a372f6770c5e9f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-064e879b00a30009365b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-06af87fca9959a5959eb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-071255047d4291e153bf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0746014cd7152b44a2f3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0791ad24f72706364c48": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 293,
+          "cydb_number": "5.7",
+          "aesz": "27",
+          "operator_hash": "3671a1760894e9030e36de89070612e8",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=3671a1760894e9030e36de89070612e8",
+          "reported_invariants": {
+            "h3": "378",
+            "c2h": "-252",
+            "c3": "-882",
+            "dim_h": "42"
+          },
+          "source_notes": "A-incarnation: X(1,1,1,1,1,1,1) in G(2,7)\nThere is a second MUM point at infinity related to\nthe Pfaffian in P^7, AESZ 243/5.46",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "5",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-42-15-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-07c517b70bb5605cbf04": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-07d5beaa324496e3fa39": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-083a432e11b450b6e87a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-083e59fc56bb45c1e069": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-084d6fb204f9e516e05e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-08ce08beba132c5d463c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0905c792f6625424a108": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0914735360ac6cd81c3c": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 257,
+          "cydb_number": "5.47",
+          "aesz": "246",
+          "operator_hash": "f51a0c39f9179dc6a561b9afb6f9d85f",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=f51a0c39f9179dc6a561b9afb6f9d85f",
+          "reported_invariants": {},
+          "source_notes": "There is a second MUM-point at infinity,\ncorresponding to Operator AESZ 247/5.48",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "4",
+            "scale": "-1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "8-80-21-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-09a15ad7d55eeb007550": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-09d05f6edcd481e6fe74": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-09f3e3af870e68ea12fa": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0a08ab9002953fa40648": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0a1ceb2414dcfb94b477": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0a7bb0c661b8bc5e0b4d": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 579,
+          "cydb_number": "1.6",
+          "aesz": "6",
+          "operator_hash": "483b4ca5270ed3bfca9243827b62064e",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=483b4ca5270ed3bfca9243827b62064e",
+          "reported_invariants": {
+            "h3": "8",
+            "c2h": "56",
+            "c3": "-176",
+            "dim_h": "6"
+          },
+          "source_notes": "A-incarnation of $X(2,4)$ in $P^5$.",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 4,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 26,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-512-105-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:3",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-0a9f43f2bd76a319d995": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0ac02e91587f43eb39fe": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0ad7ced0ba81bc9cf84b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0b13b97df2fb31e3dd9d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0b3916c2c3e9d70b3495": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0b3f798fb7b5052e5cca": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0b54969f79290d704f4e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0bf611b8a38c9d537fbf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0ca15ab9ad2485c6b275": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0d463653367a516a0744": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0d4e77650aec455caa05": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0d63c33f00881dac2f38": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0dd52eaf55b4b6b4cb4b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0e06e12372ce0f3b2506": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0e31ad716cf96706e3c5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0e41c181551e6b1dd3a5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0e488adf7950e0e7cb14": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0e52111e171c13272f77": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0e7e3dec215fe188c08b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0e827154f9cd00c41ed7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0ea7a09db76c29cc1970": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0f48c9c650934eff4aff": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0fa6ab4ada250139ba3b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-0fba6bd7354f67f02178": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-100de54ba8154571d120": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-10da2770db1b35e7da0d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1112f13119fa5266d1f6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-119075d6a84b3301d71e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-11a83983768f7d6069ca": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-12501c8b7459c667da5c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-133f7b8f81251ac20ada": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1362f8c858b592af27e3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-13cb8ccc8d16e547b1d1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-13ecb826d4371ef67e78": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-13f470daf34c5b7b9ddc": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-149591fe6170e19d6389": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-14ba77c8d63c7a69f6ba": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-151ed59995044bb094f7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1522f39afe86e38f27b4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-15e39057141e811b2e16": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-15ed67ee56058bcf1bd5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1609889d665b8b1e8585": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1645f026afb77133ea79": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-16684f95d92415087845": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-167a02650c2ca7372996": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-16fcdde8862d8fb4218e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-171ec43626d2afe2c83c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1771235cdbfad873602e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-184c7250ea41ff5b0523": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-185138fa3a13dbeb27bf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-18a2414606b0f2b3a07f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1900f97dfa85a6a2356a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-19a99cb15c379fd7a972": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-19ad378340362617b64d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-19b057db2d6c18c7cdff": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1a0b90c65f4172b71d62": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1a7f15763c97eb3e163b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1bb4a23b71d3cca7b9c1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1c2bc81fd4c4003f7d86": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1c72ef06cd9fe0a8e4a8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1ce913aaa73b004acf8b": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 225,
+          "cydb_number": "5.18",
+          "aesz": "124",
+          "operator_hash": "394b401a3162e31c79ede5b46973791d",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=394b401a3162e31c79ede5b46973791d",
+          "reported_invariants": {
+            "h3": "61",
+            "c2h": "94",
+            "c3": "-86",
+            "dim_h": "18"
+          },
+          "source_notes": "This is operator \"5.18\" from ...",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "5",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-61-19-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-1cec8c5561ebb4485a89": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1d15507080c4d2908658": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1d5d89a898e928e017c9": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 66,
+          "cydb_number": "2.6",
+          "aesz": "24",
+          "operator_hash": "5e8f8f32b5e99693a2956e1240b9fdff",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=5e8f8f32b5e99693a2956e1240b9fdff",
+          "reported_invariants": {
+            "h3": "15",
+            "c2h": "66",
+            "c3": "-150",
+            "dim_h": "8"
+          },
+          "source_notes": "Hadamard product B*b\nRelated to (:case 7.19), (:case 8.18)\nThis operator corresponds to $(Grass(2,5)\\vert 1,1,3)_{-150}$ from arXiv:0802.2908",
+          "coefficient_formula": "A_{n}=\\dbinom{2n}{n}\\dbinom{3n}{n}\\sum_{k=0}^{n}\\dbinom{n}{k}^2\\dbinom{n+k}{n}",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 3,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 34,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-405-85-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-1d8a331ba7401e8d4657": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1d9357ecf908c7588bc4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1dedcb03ccfa0b3291ea": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1e2b15e4b407a9a6d74e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1e7468d119dd6cc61534": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1ea1e452de9b48d30b26": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1ea9726a4532ee4f619c": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 560,
+          "cydb_number": "1.4",
+          "aesz": "4",
+          "operator_hash": "1f2a9672b7cdc68eae658b2304b40dbd",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=1f2a9672b7cdc68eae658b2304b40dbd",
+          "reported_invariants": {
+            "h3": "9",
+            "c2h": "54",
+            "c3": "-144",
+            "dim_h": "6"
+          },
+          "source_notes": "A-incarnation: X(3,3) in P^5.",
+          "coefficient_formula": "A_{n}=\\dbinom{2n}{n}^2\\dbinom{3n}{n}^2",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "36",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-9-7-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:785",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-1eebbc7586b8c960c959": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1f51f4c6891fe5600169": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1fbc53d61bbab0c2a8e1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-1fe9164d9af9ec9d3b35": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-20430d3bd4d0fbc70d79": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2082e9b1e491fa9ed714": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-20e5b7fc27665db16cb3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-21a32d54f24ff6bdcb70": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-21bca0b158a3b133a9c1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-22193076827fd55c5ad8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-22e95c7e2a238acbe2e8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-22ed9d5b9efafb928136": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2323fa783323f82a0954": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 579,
+          "cydb_number": "1.6",
+          "aesz": "6",
+          "operator_hash": "483b4ca5270ed3bfca9243827b62064e",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=483b4ca5270ed3bfca9243827b62064e",
+          "reported_invariants": {
+            "h3": "8",
+            "c2h": "56",
+            "c3": "-176",
+            "dim_h": "6"
+          },
+          "source_notes": "A-incarnation of $X(2,4)$ in $P^5$.",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "48",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-8-7-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:796",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-2381c137c4cf24069770": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-239be515ed6d6b20cf44": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-23a36260ae9e7bb3e192": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2420ee7015871453cc5c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2452e0405ce6168e5e2d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-24908807268164546b7b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-24c639d5f761b372aa31": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-250bdf699c28c7c5a0c4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-254c80522d27246e1c05": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-25b1a4cf766b3cbc012e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-25bf7c22a76971ee18a6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-25ca5eb5c978935326c0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2601e5200b38ddb0e616": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-268da4f96d50a925935f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-26ed25a0660a5bb06a59": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-27285b1c478e103beb18": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2761ba628111d0c0c184": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-27c6253e4fbee3fe592d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-28183ef22f8454f5a739": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-287aa01a7835a547cef6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-28874689754916e8200b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-28966a21d14c8db7c206": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-28a5668e0496649f5bcf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2917a35b832ca82e5d3d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-297831e6c235d3f56e87": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-29f90b95afa8212370a7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2a0f267a4ec51505ae55": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2a17e95d91e71809f51a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2a80e733341d01b24ada": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2b03ef6b211062d03713": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2b445c2f6ed682f6e3c8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2b7cd16571835958ed41": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2bc667b342493dd84ebd": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2c9b045da5f2ba5d69ef": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2ce9548a4bc749ff3df5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2d09c36e2aab29a9a545": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2d458c5eda4f791d8783": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2dc8b428dc354879e324": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2dd99ce16ddfcefe6472": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2e042afe012f541879d8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2e4eb151e13bc6145279": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2e662918eeeb534a050a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2e83ee317b888a17e7f8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2ea572d0b891dd95a0f2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2ec8041e7884cf671ec0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2ee2a663b084e0f82c35": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2ef30a5579af23f49c45": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2ef9c88ac3503856fb7d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2f27159e6290824e87af": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-2fe3762ed23d3aba061d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-30f74ce393aed486271d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3102c601fd583e3d2ff2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-317ef9bdeb71a5dc130a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-31af187b670b92e62008": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 282,
+          "cydb_number": "5.6",
+          "aesz": "23",
+          "operator_hash": "65760d446ba9c3da587ce5bd9912745e",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=65760d446ba9c3da587ce5bd9912745e",
+          "reported_invariants": {
+            "h3": "96",
+            "c2h": "96",
+            "c3": "-32",
+            "dim_h": "24"
+          },
+          "source_notes": "There is a second MUM-point at infinity,corresponding to Operator AESZ 56/5.9\nA-Incarnation: (2,0),(2.0),(0,2),(0,2),(1,1).intersection in $P^4 \\times P^4$",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "8",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:707",
+              "proved": false
+            }
+          ],
+          "fano_operator_proved": false
+        }
+      ]
+    },
+    "QP4-32f9ab882c4c513cb69f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3307a2a86349d4f27636": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-330d755cf3a32277493a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-331fb2a137f6e667dd0b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-332616dd7b0700028d65": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3327ffe701dd45674bd8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-33412c18bc2829104a44": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-33912bd084d8b352d20c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-33cde5311ed477fd072a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-34fa9d16ed1159c1bdd3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3545a659f2b20c19ebe7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-35715b289e7b333a8fdd": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-35df3130475514a667be": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3630439eecb71d5eeb4f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-36526cb34173511cec40": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-36686944d6b102637eb9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-36be7a191632e7b2feb7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-36bf1f7c48eae5f0278e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-36ca3dac3f272970c623": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3751dd0519cae905a87d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-37999112320c1d5f07e5": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 431,
+          "cydb_number": "6.9",
+          "aesz": null,
+          "operator_hash": "98af5121f39c27098356e3ade277f975",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=98af5121f39c27098356e3ade277f975",
+          "reported_invariants": {
+            "h3": "162",
+            "c2h": "132",
+            "c3": "-88",
+            "dim_h": "38"
+          },
+          "source_notes": "This is operator \"6.9\" from ...",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "2",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "2-162-39-b",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-37c1c51ddc8bf9c205fd": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-37cd8736af3a03283f22": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-37d3694fe2ba7e91b96e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-37f8f160161f9276e1c4": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 79,
+          "cydb_number": "3.1",
+          "aesz": "34",
+          "operator_hash": "e5461c5f5ae4d929328f66b8955a31f5",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=e5461c5f5ae4d929328f66b8955a31f5",
+          "reported_invariants": {
+            "h3": "120",
+            "c2h": "120",
+            "c3": "-80",
+            "dim_h": "30"
+          },
+          "source_notes": "",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "5",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "5-120-31-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:653",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-38507d60b43246e25413": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-38579796626584421420": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3893e10fcf897d1c9889": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-389436a1a88312974aab": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-38b04515e116767df325": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-391069a4e26a32257a14": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-39177fc2f682cec6c3a6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3956cfb8740012e08feb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-39845a74bf267bb5c201": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3a3db15b81e08a0ff0af": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3a6e17ef7fb276869678": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3a92c083b067feaa3b4f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3af56701f08dbc428092": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3b0f27aa868819c5fe08": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3b1fe3412efc58a35940": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3b428e654eb656005363": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3bfe3fda27838e593ecb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3c13440cc1831076c0f0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3c387b1a118d7f2c9dec": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3c5507800b24a640327c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3cf5289e2fd0baa0a423": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3d67665730b1e3863eaa": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3d89bfbc4dfbc929b411": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3dd3e2482393836a04f9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3dd658bb0a2f6fec8a53": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3e1ddfe793725f3c2e1d": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 228,
+          "cydb_number": "5.20",
+          "aesz": "186",
+          "operator_hash": "b3d164f22d02de1efcd62d3aa9ab5ce4",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=b3d164f22d02de1efcd62d3aa9ab5ce4",
+          "reported_invariants": {
+            "h3": "57",
+            "c2h": "90",
+            "c3": "-84",
+            "dim_h": "17"
+          },
+          "source_notes": "There is a second MUM-point at infinity, corresponding to Operator AESZ 187/5.21",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "3",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-57-18-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-3e470d6c3248f98680f2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3e594b427c813267079d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3e72f5b2dc31a0a035f8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3f017a89f686529cf540": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3fb3b0582b5348eefb9a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4013ca94e5622836f1cd": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-405e4f1fbff18e7aaee6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4180578f10538c9e00f7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-41ac81b9aded085e9c23": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-41caae8a0df2ed84f2ec": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-41efb674f094303cd522": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-420147e26257d0797295": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-42660366b72dc6bc3b8d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-427ba9bcc474850361f8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-42c36e75e54551bcb120": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-439e36a57ae7a8b289fc": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-44671f87376908b31cd1": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 561,
+          "cydb_number": "1.5",
+          "aesz": "5",
+          "operator_hash": "a6c4fb927cb2a4bb1103c1c739a252b0",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=a6c4fb927cb2a4bb1103c1c739a252b0",
+          "reported_invariants": {
+            "h3": "12",
+            "c2h": "60",
+            "c3": "-144",
+            "dim_h": "7"
+          },
+          "source_notes": "A-incarnation: X(2,2,3) in $P^6$.",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 3,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 34,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-324-70-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:34",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-4507576f728f999b6ee1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4541dbea835eb41383d8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-45f5abe39f9464b10040": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4652d978176c391c3294": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 50,
+          "cydb_number": "2.55",
+          "aesz": "42",
+          "operator_hash": "c389d3bc0e31801bc4b7b3e186702bc9",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=c389d3bc0e31801bc4b7b3e186702bc9",
+          "reported_invariants": {
+            "h3": "32",
+            "c2h": "80",
+            "c3": "-116",
+            "dim_h": "12"
+          },
+          "source_notes": "Hadamard product $I \\ast \\epsilon$",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 2,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 51,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-256-57-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-465b668bfc1c5b8a30c3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-468aba3d5336c9e08053": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-46fde0532e96ecb66f6a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-476522d969d2cb6c09f2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4765b0483583cc5b6f88": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 561,
+          "cydb_number": "1.5",
+          "aesz": "5",
+          "operator_hash": "a6c4fb927cb2a4bb1103c1c739a252b0",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=a6c4fb927cb2a4bb1103c1c739a252b0",
+          "reported_invariants": {
+            "h3": "12",
+            "c2h": "60",
+            "c3": "-144",
+            "dim_h": "7"
+          },
+          "source_notes": "A-incarnation: X(2,2,3) in $P^6$.",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "24",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-12-8-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:784",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-481db23c87bbf10ac893": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-48207cb964bc90b0b23e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4838f396bd1e38a2b9c4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-48858f257fe3fb6604e3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-48b7fb13496242d40194": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-48e15e5f709d354c3385": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-493f0fd11890f5918de9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4a0fc6754e9f2b30d072": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4a2376643b96bd868962": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4a47fd580775b591d290": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4a83404d918bf8aa3207": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4aa3ce9df0b9c845df69": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4aad106fb2d397570e36": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4ac748ddfdc0b3e7069f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4ad78aae15a607f2c640": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4b41af8300f7e3eb8956": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4bab0fa11d184327374c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4bb4aaea70865551f371": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4beb3c04b0e1bda4d75d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4bf6d5136d1ee101bb47": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4bfa82cc1612182ed7ee": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4c3a23641eae92285056": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4c89586bde067242eaa3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4c9b66438b125798720b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4d16c867a9c964aede45": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4d57e39ad02e125f5607": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4dbb802a58baac957516": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4dd18269024d749006af": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4e22b58fe9bb9f9ec43b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4edcf82b44a0d1603be3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4ef784a50bee547cf21d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4f08bfc9e4b071c67a89": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4f59fc1be9f1a29fad5b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4f6384f2c9be8486c9c0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4fa167506fd77df0f678": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-4fef02938ce838f6ffdc": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5080fdbb6994189c487b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-50e422171403853b16ff": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-51c4f27b705fab53ee8f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-52018f3e4d9807538474": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5233d01c9ca7ecb5fe57": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-524175ffbf79839e3f9b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-52474ab818dca5fe35f7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5297604eb03e92e43a36": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-52d85973e13236d76e79": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-52fb96aa57b09e60f58c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5332784fd2c0cf9ab268": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5376962cc200454c1fba": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 227,
+          "cydb_number": "5.1",
+          "aesz": "17",
+          "operator_hash": "370d10edbf5900002f79cf6163e106a5",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=370d10edbf5900002f79cf6163e106a5",
+          "reported_invariants": {
+            "h3": "90",
+            "c2h": "108",
+            "c3": "-90",
+            "dim_h": "24"
+          },
+          "source_notes": "There is a second MUM-point at infinity, \ncorresponding to Operator AESZ 290/5.71\nA-Incarnation: diagonal subfamily 1,1,1-section in $P^2 \\times P^2 \\times P^2$\n",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "3",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "3-90-25-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:647",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-53a723071b7c454c9f10": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-53c624fc70488024ee7e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-53e746953accac8dc33a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-54fdc883b724b7d145ae": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5581ec946b87f0154f3f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-55b5fa7cf7fc67c53d04": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-55dafd6c6d8baeb0486e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5662375ba60cc2ee04fb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-56ae416ef409b9fc6a8d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5768951f87e1f87cb59f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5791dc9af6ed0ce06fe0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-57b448811491de35e061": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-57ecc954571ed7b4fc66": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-57fb8b82fdde7c3855a4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5851ac758f25130c3eda": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-590b801055219d01ae66": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5932fa2dcd313d870481": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-59374f4c8882a4ba687c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-59a11950fe3ee4a2b2c8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5a165df18c747ec7bf94": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5a3621abe50c271651db": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5a6cae18a1243de4dcfd": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5a7f4a7a609904ce6112": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5abcdfdaed26ca60c07e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5ad8bb880ffc5046bcf0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5b3faccfe71272c7d94f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5b5dacad4acfc932593d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5b802ccb9c19b5265241": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5bf72f0b328bb8c252cc": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5c3479143afa7e607781": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5c458694064024eb1bc4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5c5d2e3596f12c54a9ff": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 56,
+          "cydb_number": "2.60",
+          "aesz": "18",
+          "operator_hash": "bb479f8a4185bf4a943dba2d433e13e5",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=bb479f8a4185bf4a943dba2d433e13e5",
+          "reported_invariants": {
+            "h3": "40",
+            "c2h": "88",
+            "c3": "-128",
+            "dim_h": "14"
+          },
+          "source_notes": "A-Incarnation: (1,1) and (2,2) intersection in $P^3 \\times P^3$",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "4",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "2-40-15-c",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:751",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-5c995bde7034ab88db0d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5d4a6f6c50c2078c47a7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5d5b166683695fa35b6e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5e2691ff13c352e4864a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5e74cab307c4fad0a13a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5f08b9c1316a62be2a22": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5f3b0ab31736da5ad317": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5f62d811a6c683f7574e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5f882b45dc7746bafe21": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5f94a80a4cad39edf461": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5fa46d9097dfd4c06f1e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5faef211585f5ff48292": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5fddebfdff05a86c5be5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5fe3778eb4ea3b031ae5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-602f0ee77c82847dc27d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6042238fcf42f8328bef": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6091e8484abff54800ba": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-60a89ae4e1aee6d7964c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-60c38045edb8a54a0676": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-61104c2e9ec9fc376b32": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-616f923b191269a83a6a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-618d91373b5b46e19dec": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-624f123f53afede8e1c2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-62561f621b5a5f8a0b38": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-626a2b0348358baedc40": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-62817de5c153b29a8537": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-62d684f3cbc633fdad1f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-63453a0e07715ad9d2bf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-63757c0ca7a6fd105774": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-63b4cc53c1a1771f5992": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-63b6aeb3622444d3e986": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-63d7f1347d550bbd2988": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-640e5b254310d9135b08": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6415d607190920157521": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6436bff739a39a706617": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-649dc65a5011bf691cb8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-64ab79d5a483067de695": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-652de12019b673b2536c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6533fa5a771af59e30f9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-65579c7f87c360badf07": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-655b96bc8248b256134e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-65f5cc9ed4e7baa2488f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-66341774f64aae4e7437": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-666cac917bbf5e0ba7a2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-66c46e08c3c680dc5abb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-66fa2d0a67cf5828775e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-678e3818b8ae7fe0b79d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-67b791e623f5a20020e1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-68916da15b53e89a4e83": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-68b0f1612aa1b309d460": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-68c3e557dbea0ac30305": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-68efe4745bdd063e5687": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-68f4f9efcd03bd221537": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6936c35bd5ae9e0f0628": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6942ace836c064167b94": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-69743f24527c9dc0ab59": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6a2726f4eb3f6b813145": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6a2aa7af4323335f646c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6a455b2f9ec84caf1add": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6a658fa4037aee99a8b2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6a8805e0d978e56c9eaf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6a8db2338142052e3831": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 22,
+          "cydb_number": "2.2",
+          "aesz": "15",
+          "operator_hash": "c8053e0e9c05ef468263fafd5e3fc764",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=c8053e0e9c05ef468263fafd5e3fc764",
+          "reported_invariants": {
+            "h3": "18",
+            "c2h": "72",
+            "c3": "-162",
+            "dim_h": "9"
+          },
+          "source_notes": "Hadamard product $B\\ast a$.\n\nA-Incarnation: diagonal of (3,3)-intersection in $P^2 \\times P^2$",
+          "coefficient_formula": "A_{n}=\\dbinom{2n}{n}\\dbinom{3n}{n}\\sum_{k=0}^{n}\\dbinom{n}{k}^3",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 3,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 34,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "2-486-100-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:20",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-6a9ee10c9ad017e7faaa": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6b0a4e64104668d288d7": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 416,
+          "cydb_number": "6.31",
+          "aesz": null,
+          "operator_hash": "fcd8db2a3ad7e58151e501b5872652df",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=fcd8db2a3ad7e58151e501b5872652df",
+          "reported_invariants": {},
+          "source_notes": "This is operator \"6.31\" from ...",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "-4/3",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:649",
+              "proved": false
+            }
+          ],
+          "fano_operator_proved": false
+        },
+        {
+          "cydb_id": 450,
+          "cydb_number": "7.7",
+          "aesz": null,
+          "operator_hash": "c7abb9c42d46f14955f0f23351082bef",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=c7abb9c42d46f14955f0f23351082bef",
+          "reported_invariants": {},
+          "source_notes": "This is operator \"7.7\" from ...",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "6",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:649",
+              "proved": false
+            }
+          ],
+          "fano_operator_proved": false
+        }
+      ]
+    },
+    "QP4-6b62612961be62d7d1cf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6c0c13e26a74c96f14a9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6c16180d6ee63c8a2aee": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6c3e6dcb72d09ebea2c3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6c64c916bd2d89e9d89e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6c6ea09bb59e1bccffc1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6ce843cc5a9351b47ec1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6d3b79c8bc0976bd1b0f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6da747cda366738288b7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6dd93ee0f3958e2f170c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6e41a8c41f19d3008a2d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6e4c70edc71ac49d58d6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6e88deaacddfac83ea8f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6ede569988f509468c59": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6ee5798e9225bf100d4a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6f5954270ac9f879b585": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6f60342b8342a88c8d28": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-6f86df96a91816851c7f": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 57,
+          "cydb_number": "2.61",
+          "aesz": "26",
+          "operator_hash": "f3fc09474973b19b8bdb783e3322eb65",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=f3fc09474973b19b8bdb783e3322eb65",
+          "reported_invariants": {
+            "h3": "28",
+            "c2h": "76",
+            "c3": "-116",
+            "dim_h": "11"
+          },
+          "source_notes": "A-incarnation: $X(1,1,1,1,2) \\subset  Grass(2,6)$",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "8",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-28-12-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-6fce33f590a998426645": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-706ac2bb7f5c0e04a472": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 561,
+          "cydb_number": "1.5",
+          "aesz": "5",
+          "operator_hash": "a6c4fb927cb2a4bb1103c1c739a252b0",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=a6c4fb927cb2a4bb1103c1c739a252b0",
+          "reported_invariants": {
+            "h3": "12",
+            "c2h": "60",
+            "c3": "-144",
+            "dim_h": "7"
+          },
+          "source_notes": "A-incarnation: X(2,2,3) in $P^6$.",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 2,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 51,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-96-27-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:666",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-709b67bdf71eaf8a680b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-70b0879c221ae4e58965": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-71099a8260712a3070fd": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-711dad04e0e6e34ac6ba": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-712c04760c559425a3c9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-716b4ffe1d07356c58af": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-71c95b14661cde5669a1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-72cb19135980d778067f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-730d4e67003054f7755e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-731cd0c304b85bdcf46a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-738b63f870d9b9d15485": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-73a7abd52d12b225c6bc": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-73c0011af8b8e126a8c1": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 47,
+          "cydb_number": "2.52",
+          "aesz": "16",
+          "operator_hash": "05af0662662bfbec63e3186c4f363313",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=05af0662662bfbec63e3186c4f363313",
+          "reported_invariants": {
+            "h3": "48",
+            "c2h": "96",
+            "c3": "-128",
+            "dim_h": "16"
+          },
+          "source_notes": "Hadamard product $I \\ast \\alpha$\nA-Incarnation: diagonal subfamily of 1,1,1,1-intersection in $P^1 \\times P^1 \\times P^1 \\times \\P^1$\nB-Incarnations:\nFibre products: 62211- x 632--1, S62211\n",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 2,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 51,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "4-384-81-c",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:448",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-741dc439fd730198aead": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-74cf30fc8764d5ea76c5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7564cb737ad358a2defb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-75caa3969e974a462e02": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-75d0d3de89b0b36c534e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-76cf31c035fafd217eb1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-76f2b4ab6c96fcff375a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7758ca27c1822ddc32f9": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 48,
+          "cydb_number": "2.53",
+          "aesz": "29",
+          "operator_hash": "92e8a038051b3fb8e0cc6ad6a52b8bfb",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=92e8a038051b3fb8e0cc6ad6a52b8bfb",
+          "reported_invariants": {
+            "h3": "24",
+            "c2h": "72",
+            "c3": "-116",
+            "dim_h": "10"
+          },
+          "source_notes": "Hadamard product $I \\ast \\gamma$",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 2,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 51,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-192-45-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-77696f01efbb1ac328ea": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-77ce178a296e83fc1df5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-77e690a8a8614cfa3ac2": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 559,
+          "cydb_number": "1.3",
+          "aesz": "3",
+          "operator_hash": "e7a9c334fb603aceccc0517dab63e7d4",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=e7a9c334fb603aceccc0517dab63e7d4",
+          "reported_invariants": {
+            "h3": "16",
+            "c2h": "64",
+            "c3": "-128",
+            "dim_h": "8"
+          },
+          "source_notes": "A-incarnation: X(2,2,2,2) in P^7.",
+          "coefficient_formula": "A_{n}=\\dbinom{2n}{n}^4",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "16",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-16-9-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:780",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-782dc954b85496316ca8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-78e4a494c8a01869ebef": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-78fd8a58b8863df353c7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-791265f670f790bd32a1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-793d8d7be476f30570e2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-79c307ea07a81398fb3f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7a4c610303697cbc8771": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7a8f70350f6bc4dea16b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7ae9c972605b793dae85": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7b3f4adf1a0f958de648": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7b9c03fb66335a0cd667": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7bc80e3adfef6260f262": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7bf15ac3fb7e727dedcb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7cbe306885e1120a5f8f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7cc145883375832f9dfe": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7d19ca9159bb3385ad34": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7d2666a4d702f8b6b108": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7d98668c77f38b10251b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7da935fcfe84d0d4e05f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7e1043951f9eb0ef6ea1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7e2072453dca1951f94d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7ee28025677aae4c6ebe": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7f049a26330c47574a25": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7f1474b090991c309b6a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7f7264372c447feca6ab": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7f78e61bb74bf8c3ab1d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7fd906066f85d48d292b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-7ff3070df79f78db7fda": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-804e9b05af26e8fff7ee": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-80920c221c026cf91de9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-80b434bebb983ba6a6a1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-80b8f6f02cda1c3f7146": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-80bed62c8b9a9091c748": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-80c36db80ca8499412d6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-81146b4c3070ce014857": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-813ecfd06a42b830104f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-816ea9918e7961389f2b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-820df2e8524a41d96ae7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8214c49de6ff2d256359": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-82375be6b67b1cf3f36a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-82439c77b2916f6d1b01": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-824fa12db1b022f20b71": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8259591495728c1ed7cc": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-826aa22e94e8521a5492": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 411,
+          "cydb_number": "6.27",
+          "aesz": null,
+          "operator_hash": "af5aea32756746d4fc4931e4da73756b",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=af5aea32756746d4fc4931e4da73756b",
+          "reported_invariants": {},
+          "source_notes": "This is operator \"6.27\" from ...",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "74/17",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "4-204-47-d",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:483",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        },
+        {
+          "cydb_id": 516,
+          "cydb_number": "8.68",
+          "aesz": null,
+          "operator_hash": "0c0662f5b46ac6cb0bd298a63cf364c7",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=0c0662f5b46ac6cb0bd298a63cf364c7",
+          "reported_invariants": {},
+          "source_notes": "This is operator \"8.68\" from ...",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "4-204-47-d",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:483",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-82a79efcda5c36718a4c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-82d5ad8002a0cddc9c60": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-831d6a6ce2d7395770eb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8360405ef882e2808b0f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-83a8fc626cf8d5c4298c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-83fa9321b5559151b598": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-84326617a61c2baa1ab9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-843633332f339fcbb5f8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-84414b5210f3712870ff": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-846c5a2eee497eaf8223": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-84886d70e89625f42ca2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-850ec5aaf7bf53a06216": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-851468efc069f385aac0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-854cc61cec90c6402dbc": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-85d92b6ca54ed8a5b519": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-861daf576321e885f026": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8642f78b0cab3f054a0d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-870a54603466de4ef40e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-871485ae1e36e0a85ce9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-87de04e7d775469b8018": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-87e4c9e35446bdaa6e19": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-87f78536c94609219c8f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8858c58f294affbc6e97": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-88672c25ef6afc1d7983": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-88b57867ebee51f1c081": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-88d1a547ea1e704b619a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-897867e71349e882c85f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8986bba8c06fd664800b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8a0ba8079a8fc25e9486": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8a635d2d5212c922f8f4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8a6aeec9408c2272f80e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8a83dc1e0e2e64249928": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8adea7f7aee6950b0e91": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8b0d01f76b76137c6e92": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8b12aab2f163734e7020": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8b3cc963aabebd9ba20b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8b6eb4760508c28d3a53": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8bba2b33bd77d79e03bf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8c45c926ba4cebc7649f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8d0b0f75f57703394992": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8d1c745a2164315a1a09": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8d286f896dd58ad8cd53": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8d2b9ff42d742a07f760": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8d840dbb1b04dffdd05e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8da5bb923989e2b61603": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8da7fc7b5ed9e2355352": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8ddcf62fe7e4d0ea1bfb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8e37005f985f8025bccb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8e722c4dcbb26ebd41bb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8f6e95d72e1b38d05971": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8f8934b53e6e311f51a8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-8fc32070eca953b02ee2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-90091adbab750a58d6cf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-90537b34a9e1a3763d68": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9090b3272a31e07bf466": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-90da11928e081bddbdab": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9119592a0771df6249cd": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9121277939b8447aabb3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-91792499b9745e625fbe": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-917b2ef5ef8d9f38b4f2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-91c33796907a1388fe86": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-92afe065680e3006b544": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-92bdb87a372e576ca26b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9323d0895222b652e420": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-932824c138a6d48713cf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9356eab6763ed4823012": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-93b1d51bff98e2f8a549": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-93f402e50b82ab74149b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9410613affb5517b3cd9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-941f45145b396979ec34": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9465a015e5076ec16777": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-94ad9f26ca92f0619189": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-94d02f11b4419ededb16": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-94d27ac1d112d4a65cb0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-954826b781335905d572": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9568bd5ac9faea5c88b5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-96174a5e7095b1b8d8a7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-961bd191a71383845df7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-967dbd1afc6290b3f6e0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9697f0f43173efb8825c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-96cc97b88576671e79af": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-96ceb6dd17cb90108f5b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-97034446b604d84f432e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9727aa76ce4797bbc772": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-972ff9f950207a3686cc": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-974b645715972d0845d9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-978000fb32df79b36227": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 579,
+          "cydb_number": "1.6",
+          "aesz": "6",
+          "operator_hash": "483b4ca5270ed3bfca9243827b62064e",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=483b4ca5270ed3bfca9243827b62064e",
+          "reported_invariants": {
+            "h3": "8",
+            "c2h": "56",
+            "c3": "-176",
+            "dim_h": "6"
+          },
+          "source_notes": "A-incarnation of $X(2,4)$ in $P^5$.",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 2,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 51,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-64-21-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:714",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-979ef1f61d3950e212f4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-97d9d475e401e3f6d93b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9866c6d5bea08b1b7dcf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-98b1124d9774b7a59e34": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-98c1ae231b7a41b986de": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9989e05da421e85e3824": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-99aa2d57e7bdb1bb9cd6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-99cc95f97b63a0fcc66e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-99fc038cfbd8a6ded9c1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9a1431c6dd8e301b1c0c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9a2a702a31fcea89c878": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9a99b5371ca70a06adf8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9ac3afe523b84edbf367": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 271,
+          "cydb_number": "5.5",
+          "aesz": "22",
+          "operator_hash": "5b96eae0872756be1130d4b12ffe60a6",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=5b96eae0872756be1130d4b12ffe60a6",
+          "reported_invariants": {
+            "h3": "140",
+            "c2h": "-40",
+            "c3": "-200",
+            "dim_h": "20"
+          },
+          "source_notes": "There is a second MUM-point at infinity, corresponding to Operator AESZ 118/5.16\nA-Incarnation: five (1,1) sections in ${\\bf P}^4 \\times {\\bf P}^4$.Quotient by ${\\bf Z}/2$ of this: \nthe Reye congruence Calabi-Yau threefold.",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "2",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "2-70-21-b",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:696",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-9b5ac01b311b1dce3ad8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9b5c3161c7fba4c8eca9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9b70f20d3782c63a916a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9ba8b0b07bb76572847e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9c4b2fc4263587f57118": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9c6eab9d2d950a1155ee": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9c941435e7d2de3f517f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9d88f37d82fb7ba6c42b": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 66,
+          "cydb_number": "2.6",
+          "aesz": "24",
+          "operator_hash": "5e8f8f32b5e99693a2956e1240b9fdff",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=5e8f8f32b5e99693a2956e1240b9fdff",
+          "reported_invariants": {
+            "h3": "15",
+            "c2h": "66",
+            "c3": "-150",
+            "dim_h": "8"
+          },
+          "source_notes": "Hadamard product B*b\nRelated to (:case 7.19), (:case 8.18)\nThis operator corresponds to $(Grass(2,5)\\vert 1,1,3)_{-150}$ from arXiv:0802.2908",
+          "coefficient_formula": "A_{n}=\\dbinom{2n}{n}\\dbinom{3n}{n}\\sum_{k=0}^{n}\\dbinom{n}{k}^2\\dbinom{n+k}{n}",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "18",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-15-9-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-9db3154abb5d5e52e800": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9dd22f78cc87910ae172": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9e6db7223dded61d445d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9eafdc5c0f5ec20e0889": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9eb762e96047dc4470d2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9ec8b4a8c7f1405ba4be": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9ee8dd93d19792862c63": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9ef5965ba940b970de69": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9f0874ed496db75f09c8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9f5c2977260bb5bec810": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9f815a775150c210728a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-9fe9fb8bb4600900c708": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a0099820351f9c12c42e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a04ba7ba1691a45747b9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a131369794c724d085fc": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a13632f123b200e9f827": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a185052ade1726dda2f5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a21cc089f49d3f8d7129": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a2250c06c68390a6937e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a2404b53c4ac4672c459": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a274a0bd01aeb5e8aefd": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a2d2e0a60e9ac4e8fd4c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a2e7bd3435cc46883c43": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a32703f1c7b15ebbe662": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a3be7f37d0151749dd93": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a3f0fc873cc4c6fe9df0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a3fff3080020002e830b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a42146f1df68fd6b2cd2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a48983c3acd2d3f0bd65": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a4b250a34a0de1586696": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 238,
+          "cydb_number": "5.2",
+          "aesz": "19",
+          "operator_hash": "4532f44d62f644bf66aa7b153d4f5c5a",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=4532f44d62f644bf66aa7b153d4f5c5a",
+          "reported_invariants": {
+            "h3": "46",
+            "c2h": "88",
+            "c3": "-106",
+            "dim_h": "15"
+          },
+          "source_notes": "This is operator \"5.2\" from ...",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "4",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "2-46-16-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:740",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-a514f6a823015e0dceb0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a5442b3509a5be83a1ca": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a6512bf89dff60e551e5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a6b820419b24e372e260": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a7108ca4aa1107b2a01b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a7927158b02393d04d9e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a799d7cb2da9164af93d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a7f5a36443f87369a420": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a862203558022e983e51": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a9182e13f7a85062f5b5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a92002411cd237201a25": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a93ddc301ffd34542b0e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a94998cfd32e5ffdcef2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a992e66b5a948f25c7ce": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a99b55f8b683901bd8ab": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a99dd4ca37ddbb6be4d5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-a9ebcbd4637f5e662fe7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-aa427331856e87dabe79": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-aa621c54a6197466f91b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-aac4b27d147ad9c85f92": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-aace24034fdd738193db": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ab2e7013ccaa81ea47f8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ab4381eba729b2a18d32": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ab4429001fb5a2710db4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ab4733ceb4db36db1cb5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ab5d5fe3cd98ee72552e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ac0186fc5c3a7dde9e72": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ac1f89ca27f56b392bd0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ac6063e54521a741ecee": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 408,
+          "cydb_number": "6.24",
+          "aesz": null,
+          "operator_hash": "aebe18b25bf886c4483ce54370c0fcbe",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=aebe18b25bf886c4483ce54370c0fcbe",
+          "reported_invariants": {},
+          "source_notes": "This is operator \"6.24\" from ...",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "-2/3",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:565",
+              "proved": false
+            }
+          ],
+          "fano_operator_proved": false
+        },
+        {
+          "cydb_id": 449,
+          "cydb_number": "7.6",
+          "aesz": null,
+          "operator_hash": "24ba77c97bc4b46c39a41c77cc1d1ef4",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=24ba77c97bc4b46c39a41c77cc1d1ef4",
+          "reported_invariants": {},
+          "source_notes": "This is operator \"7.6\" from ...",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "4",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:565",
+              "proved": false
+            }
+          ],
+          "fano_operator_proved": false
+        },
+        {
+          "cydb_id": 451,
+          "cydb_number": "7.8",
+          "aesz": null,
+          "operator_hash": "d5b8cfd5049e5d8670dac5bb5499d46a",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=d5b8cfd5049e5d8670dac5bb5499d46a",
+          "reported_invariants": {},
+          "source_notes": "This is operator \"7.8\" from ...",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "12",
+            "scale": "-1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:565",
+              "proved": false
+            }
+          ],
+          "fano_operator_proved": false
+        }
+      ]
+    },
+    "QP4-ac7f56ebab3b70c8ad5f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-acff4ee790fcca3d34e4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ad7f60831571c4ddddb4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ae03c2b9dc157984160a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ae1621060d1b38b26eba": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ae35deb0b50f4b9ecf2a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ae999acf6b8e3fd16523": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-aef69cdf55ade9a80e7e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b0bc2f137d02e51c3655": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b1293ef45c4b7064dfce": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b15a82045db81359e3d7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b163eddd2d57503f9f48": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 402,
+          "cydb_number": "6.19",
+          "aesz": null,
+          "operator_hash": "38a2cec750ea75c0fd64ef0a4286a801",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=38a2cec750ea75c0fd64ef0a4286a801",
+          "reported_invariants": {},
+          "source_notes": "This is operator \"6.19\" from ...",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "-90/23",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "6-230-51-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:513",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        },
+        {
+          "cydb_id": 497,
+          "cydb_number": "8.50",
+          "aesz": null,
+          "operator_hash": "68499833fa99ef8841a3d64e042d4a6e",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=68499833fa99ef8841a3d64e042d4a6e",
+          "reported_invariants": {},
+          "source_notes": "This is operator \"8.50\" from ...",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "6-230-51-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:513",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-b1744695d2e070359ae6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b19fe5a8e54db2ad9f72": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b1aceeabd99f54560f4d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b1de8879b65680dc8778": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b2058af96900b20acb88": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 51,
+          "cydb_number": "2.56",
+          "aesz": "185\n",
+          "operator_hash": "80506439e4d4fdc41f5b16e246a69fbf",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=80506439e4d4fdc41f5b16e246a69fbf",
+          "reported_invariants": {
+            "h3": "36",
+            "c2h": "84",
+            "c3": "-120",
+            "dim_h": "13"
+          },
+          "source_notes": "Hadamard product $I \\ast \\zeta$",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "6",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-36-14-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-b2b6042a06f934107050": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b3231dcea8d2d69c07b4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b32852e8dddadc24b687": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b36c0aea6017f9954157": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b3b3a9eefaf1af136d85": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b464ce991e8f912ef5bf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b49ee33f405b696f5527": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b5a5bc8ed167a20fb946": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b627ef79905c9c25d17d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b659519c537575adc546": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b6768ea30d01bbb3a951": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b68214fa8bd02376fa55": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b683a8defb64fabd3c05": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b6c0c8dd3a759f02c3b8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b7399a8523e13b547c74": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b753a95b817ddb242000": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b841214e25f2aa241dd5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b8f051aa4923375b00a4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b9719633e61d2d54b6d4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b98f53999b35e646d97e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ba30c4f48d74ba8806a8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ba983dc74fa96313e656": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-badd21f7555299a0d68d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bb1a5cd730cea5f1f9bc": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bb48552eb0be027335d9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bb833ec5335518ac9536": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bc0c1490a531d1163ba9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bc0f0fd48ebb41951ae8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bc28e933c3c44c54ece7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bc772ebcb321e79b5f22": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bd1a1bdcc74c18c794be": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bd3a1ebf2879615b77b6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bd67e5c1ca9b7d5ccda4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bd90bd36b35dfb323c24": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-be071201637131e9687d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-be2c8355a56e51e8a9bc": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-be4fee4d966e39e2070f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bea0c73491e6531d28a9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bef2f3a5d411bf9bf5f1": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 55,
+          "cydb_number": "2.5",
+          "aesz": "25",
+          "operator_hash": "93279abcbeeade30c29508de7784e582",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=93279abcbeeade30c29508de7784e582",
+          "reported_invariants": {
+            "h3": "20",
+            "c2h": "68",
+            "c3": "-120",
+            "dim_h": "9"
+          },
+          "source_notes": "Hadamard product $A\\ast b$\n\nA-incarnation: X(1,2,2) in G(2,5)",
+          "coefficient_formula": "A_{n}=\\dbinom{2n}{n}^2\\sum_{k=0}^{n}\\dbinom{n}{k}^2\\dbinom{n+k}{n}",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "12",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-20-10-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-bf1e40228f9d4eb1b18b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bf2a23fd9dc6a8cca07f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bf3b2c241e4b77188ca3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bf5debaf301b12e37c7e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-bff1c20a8c3aac8df691": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c026d487284d4f1ea701": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c036fb9b44419db3bd67": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c067ff4181b80d0de93f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c0aad16914e33ef3bb23": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 560,
+          "cydb_number": "1.4",
+          "aesz": "4",
+          "operator_hash": "1f2a9672b7cdc68eae658b2304b40dbd",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=1f2a9672b7cdc68eae658b2304b40dbd",
+          "reported_invariants": {
+            "h3": "9",
+            "c2h": "54",
+            "c3": "-144",
+            "dim_h": "6"
+          },
+          "source_notes": "A-incarnation: X(3,3) in P^5.",
+          "coefficient_formula": "A_{n}=\\dbinom{2n}{n}^2\\dbinom{3n}{n}^2",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 3,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 34,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-243-55-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:39",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-c11b880b6a65c4429eaf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c145ea5fd1c525475c74": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c14c6989c8d50a2107ce": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c1f7676bc7d730458b6d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c21870579922bb7eb6c4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c2c477a37f481e2ba0cb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c2e1691c860989647f05": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c378b1ccddc3e0737231": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c387c7dea32eccfffa48": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c3983136472c946fd960": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c3e576d4a982d1ac1576": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c3fd1267e0ae8803632a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c57edfda609d527b7742": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c62676de9219374567d8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c658bc0aaaf275e3506f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c71ff6b1e77f60cc863f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c7497d8b6b913e86211c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c797206e0dae37414285": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c79ac76f2759aeb6bec0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c7b8a80fdfae5a59c96f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c835ce437191018f11a0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c86c7bc5141e1df7332c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c8765a28e049f1bcd879": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c882bfa31d2d340d1568": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c8832e6e496b68d5623b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c89e19eb56045fbcf768": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c8b5f13c6eed0442d01e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c8f79c5337062e90a650": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c8fa5ab35415bea9d799": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c92af1f87b09f31ba128": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-c9680e6df16323bf72d0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ca1c2b1627e0522fc970": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ca3314a0e14f0c28bcac": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 58,
+          "cydb_number": "2.62",
+          "aesz": "28",
+          "operator_hash": "06dd455cafc5097e4f671d385984c1a2",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=06dd455cafc5097e4f671d385984c1a2",
+          "reported_invariants": {
+            "h3": "42",
+            "c2h": "84",
+            "c3": "-96",
+            "dim_h": "14"
+          },
+          "source_notes": "A-incarnation: $X(1, 1, 1, 1, 1, 1) \\subset  Grass(3, 6)$",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "6",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-42-15-b",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-ca5398fefa4098f0ee1e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ca6db7bdf7a6822d135a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-cb32827289a5b331e6b3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-cbb24e197f119c41d13a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-cc1719c02de0df53ad27": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-cc5adef9826788fbae2e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ccb47959aa9041337971": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ccc303dc52335e577502": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ccd8e4fe6e3fc201cfb3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ccdf9c65ac93c302c1ca": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-cce805622ed6f5fcb202": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-cd23be1fbc43154ff445": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-cd67c6a58feb489bd305": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-cde52f1abf226f737eab": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ce15f78958031f9ff2d6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ce86ca56d2f27c655be9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ce9de27157039da54eaf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-cef28f7d403c7680959d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-cef2ca6935942937e845": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-cf01b33ef3fb23a9d9a5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-cf7b6ccf956902b8effa": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d072c606afeb0a57aebd": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d09ac6ecf9bddb7fc8d2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d0ade5ef97eb445292c0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d0fb669586de89e8a009": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d18a1f5c8d4bcba51586": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d1ad98c0df31b4f6189a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d1b07e12e1a92a688e74": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d1bd8de727238dc303a1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d1d7035d59fde58b7b20": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d27914afe8402d26efc4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d2b56c81df02500d4d15": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d2e6c7b87b122fae7800": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d36e24a0219541e13224": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d392b5baa22931e86338": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d3db8d6df90584590ee8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d3eccb61e85889b8f340": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d4147583763eb8fa8a3c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d42505b3e005a306be40": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d4852baadb4a20ee7fd7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d4bde564d9d265e3772c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d648c20a86c1460b543a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d6bb6e1a49c9a58fe3fe": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d6ce9d98ef138b149c5c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d70c769d8112fb1ad826": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d742c8a676062f1209df": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 249,
+          "cydb_number": "5.3",
+          "aesz": "20",
+          "operator_hash": "a9a698dc5c79ffda497a7897390408b0",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=a9a698dc5c79ffda497a7897390408b0",
+          "reported_invariants": {
+            "h3": "54",
+            "c2h": "72",
+            "c3": "-18",
+            "dim_h": "15"
+          },
+          "source_notes": "A-Incarnation: (3,0),(0,3),(1,1) intersection in $P^3 \\times \\P^3$.",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "12",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:756",
+              "proved": false
+            }
+          ],
+          "fano_operator_proved": false
+        },
+        {
+          "cydb_id": 452,
+          "cydb_number": "7.9",
+          "aesz": null,
+          "operator_hash": "5641c09b76662b0741e41b41b0c6f105",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=5641c09b76662b0741e41b41b0c6f105",
+          "reported_invariants": {},
+          "source_notes": "This is operator \"7.9\" from ...",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "42",
+            "scale": "-1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:756",
+              "proved": false
+            }
+          ],
+          "fano_operator_proved": false
+        }
+      ]
+    },
+    "QP4-d74c344a08361a6eada0": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 559,
+          "cydb_number": "1.3",
+          "aesz": "3",
+          "operator_hash": "e7a9c334fb603aceccc0517dab63e7d4",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=e7a9c334fb603aceccc0517dab63e7d4",
+          "reported_invariants": {
+            "h3": "16",
+            "c2h": "64",
+            "c3": "-128",
+            "dim_h": "8"
+          },
+          "source_notes": "A-incarnation: X(2,2,2,2) in P^7.",
+          "coefficient_formula": "A_{n}=\\dbinom{2n}{n}^4",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 2,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 51,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-128-33-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:619",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-d74d088623c0f028baf5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d7a45be8ed2854cb2f29": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d841b0a12a9959395672": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d8439454cd2413b6dae8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d84bdfe9b06bfa64bd6c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d84d2c192caadcc9ae37": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d878f2c4fddbe9e25a47": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d8a372a9455eb984c6fc": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d8a5bfb1dadcdcdc6a64": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d901f5303ca2f4f58aba": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d91167eca8466a5eff51": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d92b04861737972c6901": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d92c93399ae5f25ea700": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d9a2836139ec84ce567b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d9bf7df693308bdbbd1f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-da0ab7353269922f7f18": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-dae48a0879eb5497321f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-db11e6b1401c71a171f6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-db13e7d50f6d6c48aa5f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-db792cdb0101ae1b4404": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-dbe0b97f98fc540bbeff": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-dd0ebb8c4d2beceac244": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-dd8aebf56b47f974002d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-dd8e95180fbc4b42a29c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-dd96864db194c601969e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-dd9d80073d89d8b173f1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-de24a0532275641f4a17": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-de2dd5a4b46f262db2cf": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-de5c4b5caf92bd02e51f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-dead06b9575f711dfe44": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-decc3336e7d73313c11f": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 233,
+          "cydb_number": "5.25",
+          "aesz": "198",
+          "operator_hash": "a1f924763b047c2720d99cfca5ca63db",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=a1f924763b047c2720d99cfca5ca63db",
+          "reported_invariants": {
+            "h3": "132",
+            "c2h": "132",
+            "c3": "-408",
+            "dim_h": "33"
+          },
+          "source_notes": "There is a second MUM-point at infinity, corresponding to Operator AESZ 193/5.22",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "-7",
+            "scale": "-1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-33-13-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-df24f847def57873062a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-dfe179e79e3967ec1a4b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-dff8561c0be3144e838b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e0399cc48b29b0a2c351": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e0fc2313b0bb21f53099": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e1179c3773786c618127": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e1349e510c742bba0e4a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e1515d296a631277782c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e1849f2e4a7863620c59": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e2982de0f9fc52f95f9b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e2f38343f6f65a130614": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e33c84945e06f5c9bb9d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e343b71f5e073ac4652a": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 240,
+          "cydb_number": "5.31",
+          "aesz": "212",
+          "operator_hash": "f72aa947ba945355102b3fef56e0af0f",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=f72aa947ba945355102b3fef56e0af0f",
+          "reported_invariants": {},
+          "source_notes": "There is a second MUM-point corresponding to Operator AESZ 117 /5.515.",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "-4",
+            "scale": "-1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-56-18-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-e36e9c3ca7b18fd21577": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e3cb100679e0cb67a39f": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 50,
+          "cydb_number": "2.55",
+          "aesz": "42",
+          "operator_hash": "c389d3bc0e31801bc4b7b3e186702bc9",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=c389d3bc0e31801bc4b7b3e186702bc9",
+          "reported_invariants": {
+            "h3": "32",
+            "c2h": "80",
+            "c3": "-116",
+            "dim_h": "12"
+          },
+          "source_notes": "Hadamard product $I \\ast \\epsilon$",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "8",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-32-13-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-e3fe4c8b625b0c5efd4d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e4227a3a314515588e24": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e455d7eee8d8698f89c2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e524f03ff1f3af2340a1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e5318d27abcd6818f9fa": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 555,
+          "cydb_number": "1.1",
+          "aesz": "1",
+          "operator_hash": "c86f1c284d8c5119801c6ba1343172bb",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=c86f1c284d8c5119801c6ba1343172bb",
+          "reported_invariants": {
+            "h3": "5",
+            "c2h": "50",
+            "c3": "-200",
+            "dim_h": "5"
+          },
+          "source_notes": "A-incarnation: $X(5) \\subset P^4$\nB-incarnation: mirror quintic.\nP. Candelas, X. de la Ossa, D. Green, L. Parkes,{\\em An exactly soluble superconformal theory from a mirror pair of Calabi-Yau manifolds}, Phys. Lett. B 258 (1991), no.1-2, 118-126. \n\n",
+          "coefficient_formula": "A_{n}=\\frac{(5n)!}{n!^5}",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 5,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 21,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-625-126-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:1",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-e5342a6bfef333198fc1": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e57ea7f27843fa53b3f6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e5ca2bc829b9b5e961ec": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e5ef1278a98369284b0c": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 55,
+          "cydb_number": "2.5",
+          "aesz": "25",
+          "operator_hash": "93279abcbeeade30c29508de7784e582",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=93279abcbeeade30c29508de7784e582",
+          "reported_invariants": {
+            "h3": "20",
+            "c2h": "68",
+            "c3": "-120",
+            "dim_h": "9"
+          },
+          "source_notes": "Hadamard product $A\\ast b$\n\nA-incarnation: X(1,2,2) in G(2,5)",
+          "coefficient_formula": "A_{n}=\\dbinom{2n}{n}^2\\sum_{k=0}^{n}\\dbinom{n}{k}^2\\dbinom{n+k}{n}",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 2,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 51,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-160-39-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-e684e0c9556a5c7d86a3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e732b5f2cd9bfb14f659": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e769b3abdb374bd9ffdb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e7ba3bc845a343c76406": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e7eb353c61d794ed6519": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e916c00f73406c2a26d2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e9918bbcf51345becfe2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e9e5f417b593492b13b7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e9fc46992a44cc4cf12c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ea1c0784cf8d6d5eb87a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ea298041636615da88c3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ea4bc831610304250040": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-eb0dc7b4cf872bd46cb7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-eb392a04f2040108dfe8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-eb40ca915feebea8c608": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-eb78107dac78cf6a9464": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ebff78913658ac9dbd18": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ec6469a4dc5d1bd84041": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ed04c2ef79a1c2101b71": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-edf91561ae95c63c46a8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ee26060d6480e60317f6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ee53d1fd38c8081353a7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-eeb331f3bf55263cc3e7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ef01c5b8809800375122": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ef2d33a17c0e9234cc15": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ef2e42992c3957f00bd7": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 56,
+          "cydb_number": "2.60",
+          "aesz": "18",
+          "operator_hash": "bb479f8a4185bf4a943dba2d433e13e5",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=bb479f8a4185bf4a943dba2d433e13e5",
+          "reported_invariants": {
+            "h3": "40",
+            "c2h": "88",
+            "c3": "-128",
+            "dim_h": "14"
+          },
+          "source_notes": "A-Incarnation: (1,1) and (2,2) intersection in $P^3 \\times P^3$",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 2,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 51,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "2-320-69-d",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:195",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-ef3a25c11d50329c8708": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ef604c00d98719d8b0b6": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 555,
+          "cydb_number": "1.1",
+          "aesz": "1",
+          "operator_hash": "c86f1c284d8c5119801c6ba1343172bb",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=c86f1c284d8c5119801c6ba1343172bb",
+          "reported_invariants": {
+            "h3": "5",
+            "c2h": "50",
+            "c3": "-200",
+            "dim_h": "5"
+          },
+          "source_notes": "A-incarnation: $X(5) \\subset P^4$\nB-incarnation: mirror quintic.\nP. Candelas, X. de la Ossa, D. Green, L. Parkes,{\\em An exactly soluble superconformal theory from a mirror pair of Calabi-Yau manifolds}, Phys. Lett. B 258 (1991), no.1-2, 118-126. \n\n",
+          "coefficient_formula": "A_{n}=\\frac{(5n)!}{n!^5}",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "120",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-5-6-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:799",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-efbe81805c740363bbe9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-efc8fee28b76cfd5f013": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-efef043c86a8161fd7b2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-eff0be5a1a3f99d14e99": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f0f0173444a54c198f16": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f22afd9171a46f9ad427": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f2f4be8f57786ed82c96": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f30dc928ce5e1916c8a6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f349c1c4abbb0396288c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f3b85638995e4742c652": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f470173c9a1327f30708": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f4aa4ccc586638dc5301": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f4bbe53c5126e41ba240": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f547a4abfa96c6461fed": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f5c359c8294e9b7ef4ba": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 260,
+          "cydb_number": "5.4",
+          "aesz": "21",
+          "operator_hash": "42a2bc0f0ee2a405ede956176c95721f",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=42a2bc0f0ee2a405ede956176c95721f",
+          "reported_invariants": {
+            "h3": "80",
+            "c2h": "104",
+            "c3": "-88",
+            "dim_h": "22"
+          },
+          "source_notes": "There is a second MUM-point at infinity, corresponding to\nOperator AESZ 71/5.11\n\nA-Incarnation: (2,0),(02),(1,1),(1,1),(1,1) intersection in $P^4 \\times P^4$",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "4",
+            "scale": "1",
+            "power": 1,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 101,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "2-80-23-a",
+              "proved": true
+            },
+            {
+              "source": "Zenodo 5708307",
+              "observation": "zenodo-5708307:690",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-f610b4790dadbd7010e9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f61b456cea7deec053f3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f6294a5f1909335247b5": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f656155cd921a333db23": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f70f65d3e33d2f98e800": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f75e64820849ef8b730c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f7f7dfaaa1dccc70220c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f80e663d2b483d27fa44": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f80e9ed2ea28b83e1dc2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f83bf411707ec2afc048": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f88acb5257757e86fe87": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f9030bf60a870a390f7c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f999a2462eb78e3a6bcd": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f9ae29c7630fbc13d67f": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f9ae53669715e4128f0a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-f9c55d0b27279340aca3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fa029b1585717a835ca7": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fabd31867291b1a27917": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fb0c648746f58f21e8b2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fb175ab0172ce0a01e7e": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fb22d70570bab5bc86a6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fb3a6f81ea8f83f27ac4": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fb9047c3b3e9e17040f8": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fb99ae621cb0ba4a5c87": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fbb65b725cac18803221": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fbc4a8e51fa3ad94fbef": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fc63c4a169d62ff02016": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fc7c5430f2b3e03be720": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fc7e99ba2c8aa7a50c15": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fcc2fb957605c47ca7a2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fcda3afd84f1cfc1f1a6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fcebdb770d63d0abc427": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fd1f4db1de0f54dc6bc5": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 51,
+          "cydb_number": "2.56",
+          "aesz": "185\n",
+          "operator_hash": "80506439e4d4fdc41f5b16e246a69fbf",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=80506439e4d4fdc41f5b16e246a69fbf",
+          "reported_invariants": {
+            "h3": "36",
+            "c2h": "84",
+            "c3": "-120",
+            "dim_h": "13"
+          },
+          "source_notes": "Hadamard product $I \\ast \\zeta$",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 2,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 51,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-288-63-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-fd499b7a69b94a7e510c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fd4e2a0910be656624e6": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fdfb4ab264101eb52c87": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fe5e6ac49ee78a689b0a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fed9af4323db4fac06bc": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-feda3ad8a5412b464658": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fedc8c6e1f5b20c39e3c": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ff22e8ef992d5a759182": {
+      "status": "operator_identity",
+      "matches": [
+        {
+          "cydb_id": 57,
+          "cydb_number": "2.61",
+          "aesz": "26",
+          "operator_hash": "f3fc09474973b19b8bdb783e3322eb65",
+          "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=f3fc09474973b19b8bdb783e3322eb65",
+          "reported_invariants": {
+            "h3": "28",
+            "c2h": "76",
+            "c3": "-116",
+            "dim_h": "11"
+          },
+          "source_notes": "A-incarnation: $X(1,1,1,1,2) \\subset  Grass(2,6)$",
+          "coefficient_formula": "",
+          "laurent_polynomial": "",
+          "evidence": "operator_identity",
+          "normalization": {
+            "shift": "0",
+            "scale": "1",
+            "power": 2,
+            "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+          },
+          "compared_coefficients": 101,
+          "primitive_coefficients": 51,
+          "cydb_supplied_seed_count": 10,
+          "cydb_extension": "exact recurrence from the recorded CYDB operator",
+          "operator_identities": [
+            {
+              "source": "exact quantum connection",
+              "family": "1-224-51-a",
+              "proved": true
+            }
+          ],
+          "fano_operator_proved": true
+        }
+      ]
+    },
+    "QP4-ffac436dd350792d37c2": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ffba5ae5ce70803e84c3": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-fff89518fccd8240bdc0": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-02bb23f9c16bc86cd889": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-08db6612b27799552ea9": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-37509e8e6eb71f390733": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3c8a6be6be39aaec913b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-3e235164377c68448d4a": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-5221c41d59e750a57576": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ae61a3ac64454ad6908b": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-b43461d8a2678448f816": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-ca1dcd3b9940954aa157": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d48800c1031c59f146ca": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d4ba9d32aa237b03ab39": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-d7b58c3172a4a7edcf30": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e1ad8d17a3095ac330cb": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e4f2e39425b0ff3e4e3d": {
+      "status": "unmatched",
+      "matches": []
+    },
+    "QP4-e9eac1c27838d2317a1c": {
+      "status": "unmatched",
+      "matches": []
+    }
+  },
+  "input_sha256": {
+    "data/periods.jsonl": "8d4d1d91f6a37d7291722ab1ea52991100a3190e4e2b9280f07a1c1dcf4d436f",
+    "data/observations.jsonl": "e79869ba97cb7bc65ec5f4c4f6e08d85ba7732464e49685edcae9ea097ec0437",
+    "sources/cydb/manifest.json": "270f788c86094ab5960c35ba9c49be5e95039c49d1e092d50d28f9fbdde312e8",
+    "sources/cydb/records.json": "a10454ccdcd300a0ca1b7249d598ae51cab2101db3ae7534ebe49d59ad79d2a9",
+    "sources/type-a-operators/manifest.json": "f67258708721d3966398d5b0c0468e05f1c9c98eebff46d173edabe035ea3b55",
+    "sources/type-a-operators/operators.zip": "1b77a89ad8cfbf011dea6d857899f175dab02425f086b48152a4b1e9c38a9669",
+    "periods_data/cy3.py": "3dddcbc836965c51fb8a725f5ea7fe7d38829b05d8ba8eb19aaa5243a58976b5",
+    "periods_data/operator_proofs.py": "e86c6056abc3d56a1ca189661a4b05fc16a5da1f8dc5f0209ae33eaea7620e10",
+    "scripts/match_cy3.py": "a2c445821768d00a7ee2f54d443b80bdb5670bbb01dc1da660231f1a7a4cee26"
+  },
+  "audience": "public"
+}

@@ -1,0 +1,320 @@
+{
+  "dataset_labels": [
+    {
+      "key": "ckp15",
+      "label": "CKP",
+      "entries": [
+        {
+          "label": "CKP(43)",
+          "coefficient_count": 101
+        }
+      ]
+    }
+  ],
+  "title": "CKP(43)",
+  "period_id": "QP4-66fa2d0a67cf5828775e",
+  "generated_by": "scripts/build_site.py",
+  "period": [
+    "1",
+    "0",
+    "2",
+    "0",
+    "6",
+    "0",
+    "380",
+    "0",
+    "6790",
+    "0",
+    "75852",
+    "0",
+    "1913604",
+    "0",
+    "50453832",
+    "0",
+    "942714630",
+    "0",
+    "20314262540",
+    "0",
+    "530933501956",
+    "0",
+    "12375951572712",
+    "0",
+    "281146099335556",
+    "0",
+    "7048315831747400",
+    "0",
+    "176721298789894200",
+    "0",
+    "4291473121062176880",
+    "0",
+    "107300131997853160710",
+    "0",
+    "2742199024945311955980",
+    "0",
+    "69374976760606906227300",
+    "0",
+    "1762588778960108963879400",
+    "0",
+    "45447603920319089158209540",
+    "0",
+    "1174264455383081569745289480",
+    "0",
+    "30347947357083785875032988440",
+    "0",
+    "789752763247930319974346074800",
+    "0",
+    "20648843907462244697293383264900",
+    "0",
+    "540612544236104699130979539593352",
+    "0",
+    "14199753295005511522894518437143704",
+    "0",
+    "374410031416394246663890383202681712",
+    "0",
+    "9893824125956733244232189724438082360",
+    "0",
+    "261994040773921732118327729757577328880",
+    "0",
+    "6956359083577547232843001598444151708304",
+    "0",
+    "185110011430280781170318215140914051679008",
+    "0",
+    "4934647900913123660363375178398750796004614",
+    "0",
+    "131803921681838607074161740611623557856040460",
+    "0",
+    "3527099744167118415123550017385647373934934180",
+    "0",
+    "94538427580805806562533164690885359076471104232",
+    "0",
+    "2537907856381110794829250698345840641821530833764",
+    "0",
+    "68236275392969300487192150800983244331119620885832",
+    "0",
+    "1837264912244303916351358652837348672282520253253400",
+    "0",
+    "49534062160602103646074347588832290800760269603937200",
+    "0",
+    "1337202388499697563917029733023692043967395969897797380",
+    "0",
+    "36142978420626050399528921095423770889745390676330909960",
+    "0",
+    "978028239849888122929036268545537726145266151261130603480",
+    "0",
+    "26494704354977208794603768421981248560144724896522661698800",
+    "0",
+    "718502252823525858091852474661146494348969456531943189541400",
+    "0",
+    "19504527397934213268191423276737807193998914255536704322309040",
+    "0",
+    "529982229698975344339165508700035693713411664804822086036902480",
+    "0",
+    "14414168335730821149514674502058490883286310335874156418083553440",
+    "0",
+    "392376718216091807356031594818010422072935472142420920561512519300",
+    "0",
+    "10690197599752865452282861307521943816287393349291278169116602683400",
+    "0",
+    "291489410394386373534590607194425528897186140903358048001041973874456"
+  ],
+  "order": 100,
+  "coefficient_count": 101,
+  "names": [
+    "CKP(43)"
+  ],
+  "published_names": [
+    "CKP(43)"
+  ],
+  "display_aliases": [],
+  "type_a_families": [],
+  "origin": "published",
+  "status": "Published PF extension · degree 100",
+  "source_keys": [
+    "ckp15"
+  ],
+  "table_source_keys": [
+    "ckp15"
+  ],
+  "tentative": false,
+  "filter_source_keys": [
+    "ckp15"
+  ],
+  "proved_operator_available": false,
+  "operator_proofs": [],
+  "zenodo_operator_proofs": [],
+  "cy3": {
+    "status": "unmatched",
+    "matches": []
+  },
+  "computations": [],
+  "literature": [
+    {
+      "paper": "ckp15",
+      "entry": "CKP(43)",
+      "location": "Appendix, index-2 construction table, period 43",
+      "url": "https://arxiv.org/pdf/1409.5030#nameddest=desc:43",
+      "description": "The paper’s representative complete intersection in a smooth toric Fano ambient variety. The matrix records the toric weights on the left and the degrees of the defining line bundles on the right.",
+      "methods": [
+        "Toric complete-intersection mirror theorem",
+        "Mirror Laurent polynomial; constant-term extraction"
+      ],
+      "operator_method": "Lairez’s Griffiths–Dwork algorithm, followed by reconstruction and recurrence checks",
+      "matrix": [
+        [
+          1,
+          1,
+          1,
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "matrix_divider": 6,
+      "matrix_label": "Toric weights | defining line bundles",
+      "source_file": "table_2.tex",
+      "source_line": 49,
+      "label": "Coates–Kasprzyk–Prince (2015)",
+      "title": "Four-dimensional Fano toric complete intersections",
+      "arxiv": "1409.5030",
+      "doi": "10.1098/rspa.2014.0704",
+      "paper_url": "https://doi.org/10.1098/rspa.2014.0704",
+      "compared_coefficients": 32,
+      "comparison_source": "Zenodo reference",
+      "zenodo_id": 47
+    }
+  ],
+  "weighted_complete_intersections": [],
+  "quiver_flag_computations": [],
+  "quiver_moduli": [],
+  "tentative_brauer": [],
+  "archive_records": [
+    {
+      "id": "zenodo-5708307:47",
+      "dataset": "zenodo-5708307",
+      "source_key": "literature",
+      "source_label": "CKP15",
+      "source_keys": [
+        "ckp15"
+      ],
+      "method": "Published coefficients; Picard–Fuchs extension where an operator is supplied",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "CKP(43)"
+      ],
+      "family_names": [],
+      "catalogue_case_ids": [],
+      "source_file": "smooth_fano_4.txt",
+      "source_sha256": "7c2c19b0aff926aa9af704ea07a1ddfffe494f108ae36f8a7221e8b7cebf1c9b",
+      "tentative": false,
+      "reference_keys": [
+        "ckp15:CKP(43)"
+      ],
+      "papers": [
+        {
+          "key": "ckp15",
+          "short_label": "CKP15",
+          "label": "Coates–Kasprzyk–Prince (2015)",
+          "title": "Four-dimensional Fano toric complete intersections",
+          "arxiv": "1409.5030",
+          "url": "https://doi.org/10.1098/rspa.2014.0704",
+          "doi": "10.1098/rspa.2014.0704"
+        }
+      ],
+      "original_methods": [
+        {
+          "entry": "CKP(43)",
+          "paper": "ckp15",
+          "methods": [
+            "Toric complete-intersection mirror theorem",
+            "Mirror Laurent polynomial; constant-term extraction"
+          ]
+        }
+      ],
+      "repository": {
+        "name": "Zenodo",
+        "url": "https://zenodo.org/records/5708307",
+        "doi": "10.5281/zenodo.5708307",
+        "record_id": 47
+      },
+      "database_id": 47,
+      "seed_count": 32,
+      "description": "",
+      "source_pf_proven": false,
+      "proved_operator_available": false,
+      "operator_supplied": true
+    }
+  ],
+  "observation_count": 1,
+  "source_observations": [
+    {
+      "id": "zenodo-5708307:47",
+      "dataset": "zenodo-5708307",
+      "source_key": "literature",
+      "source_label": "CKP15",
+      "source_keys": [
+        "ckp15"
+      ],
+      "method": "Published coefficients; Picard–Fuchs extension where an operator is supplied",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "CKP(43)"
+      ],
+      "family_names": [],
+      "catalogue_case_ids": [],
+      "source_file": "smooth_fano_4.txt",
+      "source_sha256": "7c2c19b0aff926aa9af704ea07a1ddfffe494f108ae36f8a7221e8b7cebf1c9b",
+      "tentative": false,
+      "reference_keys": [
+        "ckp15:CKP(43)"
+      ],
+      "papers": [
+        {
+          "key": "ckp15",
+          "short_label": "CKP15",
+          "label": "Coates–Kasprzyk–Prince (2015)",
+          "title": "Four-dimensional Fano toric complete intersections",
+          "arxiv": "1409.5030",
+          "url": "https://doi.org/10.1098/rspa.2014.0704",
+          "doi": "10.1098/rspa.2014.0704"
+        }
+      ],
+      "original_methods": [
+        {
+          "entry": "CKP(43)",
+          "paper": "ckp15",
+          "methods": [
+            "Toric complete-intersection mirror theorem",
+            "Mirror Laurent polynomial; constant-term extraction"
+          ]
+        }
+      ],
+      "repository": {
+        "name": "Zenodo",
+        "url": "https://zenodo.org/records/5708307",
+        "doi": "10.5281/zenodo.5708307",
+        "record_id": 47
+      },
+      "database_id": 47,
+      "seed_count": 32,
+      "description": "",
+      "source_pf_proven": false,
+      "proved_operator_available": false,
+      "operator_supplied": true
+    }
+  ],
+  "compatible_longer_period_ids": [],
+  "sequence_sha256": "66fa2d0a67cf5828775ea146d20127a21727c9132ac1d5c225ccd7ba2704ca22",
+  "download": "downloads/periods/qp4-66fa2d0a67cf5828775e.json",
+  "description": "Regularized quantum period QP4-66fa2d0a67cf5828775e: 101 coefficients, constructions, references and computation methods.",
+  "aliases": []
+}

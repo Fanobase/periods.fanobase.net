@@ -1,0 +1,103 @@
+/* Shared visual rules from type-a.fanobase.net. */
+/* ============================================================
+   Navigation (nav#menu) — always visible at top, dark bar
+   ============================================================ */
+nav#menu { font-size: 14px; }
+nav#menu a.nav-link { color: #81c3fc; }
+nav#menu a.nav-link:hover { color: #d9edf7; text-decoration: none; }
+a[href], button:not(:disabled), select:not(:disabled), summary, label[for],
+label:has(input[type="checkbox"]:not(:disabled), input[type="radio"]:not(:disabled)),
+input[type="checkbox"]:not(:disabled), input[type="radio"]:not(:disabled) { cursor: pointer; }
+
+/* ============================================================
+   Site title
+   ============================================================ */
+div#title {
+  background-color: #eee;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+div#title h1 {
+  font-family: "Poppins", Georgia, serif;
+  font-size: 2.4rem;
+  font-variant: normal;
+  padding-top: 0.3rem;
+  margin-bottom: 0;
+}
+div#title h1 a { display: inline-block; color: black; text-decoration: none; }
+div#title h1 .t-red { font-variant: small-caps; }
+div#title .site-title-suffix { font-size: 90%; }
+div#title h1 a:hover { text-decoration: underline; text-decoration-color: #c0392b; color: black; }
+.site-beta { font: 600 0.75rem system-ui, sans-serif; vertical-align: middle; }
+div#title p#slogan { font-style: italic; font-size: 0.9rem; margin-bottom: 0.5rem; color: #444; }
+.t-red   { color: #c0392b; }
+.t-green { color: #27ae60; }
+
+/* ============================================================
+   Fieldsets used for search forms and family sections
+   ============================================================ */
+fieldset {
+  min-width: 0;
+  display: flow-root;
+  border: 1px solid #dee2e6;
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.625rem;
+  background: #fff;
+}
+fieldset + fieldset { margin-top: 0.5rem; }
+fieldset legend {
+  float: left;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #495057;
+  margin: 0 0 0.5rem;
+  padding: 0 0 0.375rem;
+  border-bottom: 1px solid #dee2e6;
+}
+fieldset > :not(legend) { clear: both; padding-inline-start: .5rem; }
+fieldset legend .btn-group { flex-shrink: 0; }
+.fieldset-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex: 1;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+}
+.fieldset-toggle::before { content: "▾"; }
+.fieldset-toggle[aria-expanded="false"]::before { content: "▸"; }
+.fieldset-toggle:focus-visible { outline: 2px solid #0d6efd; outline-offset: 3px; }
+fieldset.is-collapsed legend { margin-bottom: 0; padding-bottom: 0; border-bottom: 0; }
+.card { --bs-card-border-color: #dee2e6; --bs-card-border-radius: 0.375rem; }
+.card .table, fieldset .table { --bs-table-bg: transparent; }
+.katex a { color: var(--bs-link-color); text-decoration: underline; }
+.katex a:hover { color: var(--bs-link-hover-color); }
+
+
+.site-content { max-width: 1200px; }
+.search-text, [hidden] { display: none !important; }
+.pv-table td:first-child { vertical-align: middle; }
+.database-table { font-variant-numeric: tabular-nums; }
+.database-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  transform: translateY(var(--table-header-offset, 0px));
+}
+.database-table thead th { background: #f8f9fa; box-shadow: inset 0 -1px #dee2e6; white-space: nowrap; }
+.database-table .family-cell, .database-table thead th:first-child { text-align: right; white-space: nowrap; }
+.database-table .family-cell, .database-table .family-cell a { font-weight: 400; }
+.database-table .description-cell { width: 26rem; min-width: 26rem; }
+.database-table .description-cell p { margin-bottom: 0; }
+.period-table th, .period-table td { white-space: nowrap; }
+@media print { .database-table thead { position: static; transform: none; } }

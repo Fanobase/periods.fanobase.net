@@ -1,0 +1,62 @@
+{
+  "audience": "public",
+  "captured_utc": "2026-11-15T17:38:30.951363+00:00",
+  "computed": 652,
+  "tentative": 0,
+  "confirmed_degree_100": 940,
+  "degree_100": 940,
+  "published_only": 288,
+  "partial": 15,
+  "total": 955,
+  "zero_loci": 652,
+  "degeneracy": 0,
+  "weighted_complete_intersections": 0,
+  "quiver_moduli": 0,
+  "quiver_moduli_presentations": 0,
+  "represented_families": 823,
+  "proved_operator_records": 652,
+  "zenodo_operators_with_exact_proof": 450,
+  "cy3": {
+    "method": "cydb-rational-pullback-v1",
+    "database_records": 561,
+    "period_records": 955,
+    "statuses": {
+      "operator_identity": 46,
+      "coefficient_match": 0,
+      "unmatched": 909,
+      "insufficient_data": 0
+    },
+    "matched_database_records": 39,
+    "operator_identities_with_proved_fano_operator": 42,
+    "minimum_primitive_coefficients": 16,
+    "maximum_variable_power": 5,
+    "source": {
+      "source": "Calabi–Yau differential operator database (CYDB), Mainz",
+      "attribution": "Duco van Straten and Pavel Metelitsyn",
+      "url": "https://cydb.mathematik.uni-mainz.de/?format=jsonpassthrough&m=lookup&search=true&Spectrum0=0%2C0%2C0%2C0",
+      "captured_utc": "2026-11-04T05:47:24.080866+00:00",
+      "selection": "Spectrum at zero: 0,0,0,0 (maximally unipotent monodromy)",
+      "record_count": 561,
+      "response_sha256": "3b49c2ee2a621f97868280627a77ac5b31d46019dd508732357227626f1aaa3f",
+      "files": {
+        "records.json": "a10454ccdcd300a0ca1b7249d598ae51cab2101db3ae7534ebe49d59ad79d2a9",
+        "response.json.gz": "6bc5e2ea830bd06fa1f0e944944c54622d63c3c668735208b9b559450bd1dee0"
+      }
+    },
+    "scope": "Direct and centered rational pullbacks with rational scale and variable powers 1–5. No match means no match in this snapshot under these transformations; it does not exclude a Calabi–Yau interpretation. A period or operator match does not identify a deformation family. CYDB topological numbers are reported source data, not inferred invariants of the Fano section."
+  },
+  "sources": [
+    {
+      "key": "ckp15",
+      "count": 738
+    },
+    {
+      "key": "kalashnikov19",
+      "count": 749
+    },
+    {
+      "key": "type-a",
+      "count": 652
+    }
+  ]
+}

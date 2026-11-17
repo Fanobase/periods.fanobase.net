@@ -1,0 +1,263 @@
+{
+  "dataset_labels": [
+    {
+      "key": "type-a",
+      "label": "type-a.fanobase.net",
+      "entries": [
+        {
+          "label": "1-288-63-a",
+          "coefficient_count": 101
+        }
+      ]
+    }
+  ],
+  "title": "1-288-63-a",
+  "period_id": "QP4-fd1f4db1de0f54dc6bc5",
+  "generated_by": "scripts/build_site.py",
+  "period": [
+    "1",
+    "0",
+    "6",
+    "0",
+    "162",
+    "0",
+    "6180",
+    "0",
+    "284130",
+    "0",
+    "14553756",
+    "0",
+    "800506476",
+    "0",
+    "46305405432",
+    "0",
+    "2780921118690",
+    "0",
+    "171927372671340",
+    "0",
+    "10877674261151412",
+    "0",
+    "701305878817193832",
+    "0",
+    "45927772578482587884",
+    "0",
+    "3047751399220654933800",
+    "0",
+    "204545441956182826717800",
+    "0",
+    "13862579655060173667793680",
+    "0",
+    "947557780230845219792424930",
+    "0",
+    "65258015637878270428590066060",
+    "0",
+    "4524409204462231340550811971300",
+    "0",
+    "315559695795342401929261224673800",
+    "0",
+    "22127444396736380289510192205315380",
+    "0",
+    "1559147478017955157455931107807301080",
+    "0",
+    "110345914222111742024707540453850216760",
+    "0",
+    "7840987098870280095298353901727850087600",
+    "0",
+    "559221764462595966841175664849563716517100",
+    "0",
+    "40019105493936314125319968935937084721741256",
+    "0",
+    "2872809241851042384857029813795379509825847736",
+    "0",
+    "206824106832858221831642870129394940831832092272",
+    "0",
+    "14930015059239488780900635240707035293896715499880",
+    "0",
+    "1080446363939035502872065276163227376498519412140080",
+    "0",
+    "78371353876003429878468178400454362366291186029628976",
+    "0",
+    "5697141779388967621788372256227416620485235915012771296",
+    "0",
+    "414994944061090222862314212434488674596663976161400164322",
+    "0",
+    "30287308209364921864994882302632430766902022147156900334540",
+    "0",
+    "2214427295266332762263137524040059084432268616525188364255940",
+    "0",
+    "162181038772149953927992169796052340808459355781767056226575432",
+    "0",
+    "11896944207941038800575403076956255834844625307200292585445636452",
+    "0",
+    "874036597918745419406888711959403329682719564673699124368196837624",
+    "0",
+    "64305454186777499317784204565521762521272553684690990481003455205400",
+    "0",
+    "4737594082865400366416744554961789148832697906168473008069726130892400",
+    "0",
+    "349486174631764742833855401877451625951368811173052966731530572538949940",
+    "0",
+    "25812895427936569563238590060528379752728959348067028087207629554614040440",
+    "0",
+    "1908764917283490468176439344759916824885680982803531539545326524739806801480",
+    "0",
+    "141303652858338166114287706840283695910367202829845898734785952536019996832400",
+    "0",
+    "10471705190915262416517205523303611692936716811169788056338435767185962122617400",
+    "0",
+    "776826141026963061589176230546590682559567115849675661430674630914266895652733840",
+    "0",
+    "57683731842302054269857567076356312224990798857806492105204856351772333335286599440",
+    "0",
+    "4287339588908746205296326587203321944497631100610600611035712213950121401696633067680",
+    "0",
+    "318941105208170112134966350966275716562573117084831822801540980600519065087414633176300",
+    "0",
+    "23746810179080189092973484647660509981380903733708837775559851942394566879192757720289800",
+    "0",
+    "1769527429349274590858613697527962475354206111448922228345587316974468938487517362390213912"
+  ],
+  "order": 100,
+  "coefficient_count": 101,
+  "names": [
+    "1-288-63-a"
+  ],
+  "published_names": [],
+  "display_aliases": [],
+  "type_a_families": [
+    "1-288-63-a"
+  ],
+  "origin": "computed",
+  "status": "Computed · degree 100",
+  "source_keys": [
+    "type-a"
+  ],
+  "table_source_keys": [
+    "type-a"
+  ],
+  "tentative": false,
+  "filter_source_keys": [
+    "type-a"
+  ],
+  "proved_operator_available": true,
+  "operator_proofs": [
+    {
+      "family": "1-288-63-a",
+      "archive_entry": "F0002071.json",
+      "system_sha256": "b95c4188644a51a915c291ae1c1d225b73180bdde4282e041c7587ae5690626e",
+      "proof_status": "proved_from_exact_quantum_connection",
+      "certificate_check": "exact rational row-vector identity checked by the source generator"
+    }
+  ],
+  "zenodo_operator_proofs": [],
+  "cy3": {
+    "status": "operator_identity",
+    "matches": [
+      {
+        "cydb_id": 51,
+        "cydb_number": "2.56",
+        "aesz": "185\n",
+        "operator_hash": "80506439e4d4fdc41f5b16e246a69fbf",
+        "url": "https://cydb.mathematik.uni-mainz.de/?m=lookup&search=true&format=json&hash=80506439e4d4fdc41f5b16e246a69fbf",
+        "reported_invariants": {
+          "h3": "36",
+          "c2h": "84",
+          "c3": "-120",
+          "dim_h": "13"
+        },
+        "source_notes": "Hadamard product $I \\ast \\zeta$",
+        "coefficient_formula": "",
+        "laurent_polynomial": "",
+        "evidence": "operator_identity",
+        "normalization": {
+          "shift": "0",
+          "scale": "1",
+          "power": 2,
+          "formula": "F(t) = A(s*t^p/(1+c*s*t^p))/(1+c*s*t^p)"
+        },
+        "compared_coefficients": 101,
+        "primitive_coefficients": 51,
+        "cydb_supplied_seed_count": 10,
+        "cydb_extension": "exact recurrence from the recorded CYDB operator",
+        "operator_identities": [
+          {
+            "source": "exact quantum connection",
+            "family": "1-288-63-a",
+            "proved": true
+          }
+        ],
+        "fano_operator_proved": true
+      }
+    ]
+  },
+  "computations": [
+    {
+      "id": "type-a-hpc:2071",
+      "dataset": "type-a-hpc",
+      "source_key": "type-a",
+      "source_label": "Type A",
+      "source_keys": [
+        "type-a"
+      ],
+      "method": "Exact virtual localization; quantum-connection recurrence",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "1-288-63-a"
+      ],
+      "model_label": "601.21",
+      "family_names": [
+        "1-288-63-a"
+      ],
+      "catalogue_case_ids": [],
+      "validation": "all_exact_checks_passed",
+      "source_file": "periods.json",
+      "source_sha256": "3f30709c953d06e3c41ee22ab876ec6f259385e5601e3d3c0967a33433196fd8",
+      "tentative": false,
+      "captures": [
+        "type-a-hpc"
+      ],
+      "observation_ids": [
+        "type-a-hpc:2071"
+      ]
+    }
+  ],
+  "literature": [],
+  "weighted_complete_intersections": [],
+  "quiver_flag_computations": [],
+  "quiver_moduli": [],
+  "tentative_brauer": [],
+  "archive_records": [],
+  "observation_count": 1,
+  "source_observations": [
+    {
+      "id": "type-a-hpc:2071",
+      "dataset": "type-a-hpc",
+      "source_key": "type-a",
+      "source_label": "Type A",
+      "source_keys": [
+        "type-a"
+      ],
+      "method": "Exact virtual localization; quantum-connection recurrence",
+      "order": 100,
+      "coefficient_count": 101,
+      "names": [
+        "1-288-63-a"
+      ],
+      "model_label": "601.21",
+      "family_names": [
+        "1-288-63-a"
+      ],
+      "catalogue_case_ids": [],
+      "validation": "all_exact_checks_passed",
+      "source_file": "periods.json",
+      "source_sha256": "3f30709c953d06e3c41ee22ab876ec6f259385e5601e3d3c0967a33433196fd8",
+      "tentative": false
+    }
+  ],
+  "compatible_longer_period_ids": [],
+  "sequence_sha256": "fd1f4db1de0f54dc6bc544b78ea1d0a8bec3758e872fe2b659d2c270ef38b670",
+  "download": "downloads/periods/qp4-fd1f4db1de0f54dc6bc5.json",
+  "description": "Regularized quantum period QP4-fd1f4db1de0f54dc6bc5: 101 coefficients, constructions, references and computation methods.",
+  "aliases": []
+}

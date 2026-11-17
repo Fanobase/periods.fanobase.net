@@ -1,0 +1,52 @@
+{
+  "audience": "public",
+  "datasets": [
+    "ckp15",
+    "kalashnikov19",
+    "type-a"
+  ],
+  "input_sha256": {
+    "sources/site/literature.json": "344c228fc244191ba2cd366540421b2433ff8542193c6f1df9887d5261f160ff",
+    "data/cy3-matches.json": "b368e4812ee4af7ef223c52945c74538a62bb5911d95397de119f0fc4e1070e0"
+  },
+  "literature": {
+    "source_sha256": {
+      "fanobase-data/provenance/quantum-literature/references.json": "3f707bdcf3ac389ea59c07192b783da8f2609cffbeb1dac79a8eefccddcfc007",
+      "sources/literature/1409.5030/source/table_1.tex": "7ffa5d066938364422fa5f2e686f065af3fe5dfbf1256f2d7d4ca914c373cc3b",
+      "sources/literature/1409.5030/source/table_2.tex": "893c2763ded874658286c443a12c84d20987bff5d88b8d4ce13d4bf9fa173878",
+      "sources/literature/1409.5030/source/table_3.tex": "93a9365ecb5aa71ab6fcea0229032d6a166c11b86233916fb2e5125df7353f10",
+      "sources/literature/1409.5030/source/table_4.tex": "ddbe5ee7dc572a9be5f77869f2161ae626469d9f05989becbbbc6f6b751775c6",
+      "sources/literature/1409.5030/source/table_5.tex": "e2cf78e0ebca5846cea8c2beade332e93b8ef970ac874f61095f1c5c15ec74c9",
+      "quantum-spectra/literature/1808.00311/data.txt": "88bd67b043c9b179727d1b8739598e4779253f507d1571c311b4d3296f30b5e1",
+      "quantum-spectra/literature/1808.00311/source/quiver_flag_zero_loci.tex": "d591bbbe0d5f01c49664b008a9188c24348ad8b844d6a804d8867b5278cca2d0"
+    },
+    "extraction": "CKP: original toric weight/bundle matrices. CKK: ancillary quivers checked against printed table numbering."
+  },
+  "cy3": {
+    "source": "Calabi–Yau differential operator database (CYDB), Mainz",
+    "attribution": "Duco van Straten and Pavel Metelitsyn",
+    "url": "https://cydb.mathematik.uni-mainz.de/?format=jsonpassthrough&m=lookup&search=true&Spectrum0=0%2C0%2C0%2C0",
+    "captured_utc": "2026-11-04T05:47:24.080866+00:00",
+    "selection": "Spectrum at zero: 0,0,0,0 (maximally unipotent monodromy)",
+    "record_count": 561,
+    "response_sha256": "3b49c2ee2a621f97868280627a77ac5b31d46019dd508732357227626f1aaa3f",
+    "files": {
+      "records.json": "a10454ccdcd300a0ca1b7249d598ae51cab2101db3ae7534ebe49d59ad79d2a9",
+      "response.json.gz": "6bc5e2ea830bd06fa1f0e944944c54622d63c3c668735208b9b559450bd1dee0"
+    }
+  },
+  "cy3_comparison_inputs": {
+    "data/periods.jsonl": "8d4d1d91f6a37d7291722ab1ea52991100a3190e4e2b9280f07a1c1dcf4d436f",
+    "data/observations.jsonl": "e79869ba97cb7bc65ec5f4c4f6e08d85ba7732464e49685edcae9ea097ec0437",
+    "sources/cydb/manifest.json": "270f788c86094ab5960c35ba9c49be5e95039c49d1e092d50d28f9fbdde312e8",
+    "sources/cydb/records.json": "a10454ccdcd300a0ca1b7249d598ae51cab2101db3ae7534ebe49d59ad79d2a9",
+    "sources/type-a-operators/manifest.json": "f67258708721d3966398d5b0c0468e05f1c9c98eebff46d173edabe035ea3b55",
+    "sources/type-a-operators/operators.zip": "1b77a89ad8cfbf011dea6d857899f175dab02425f086b48152a4b1e9c38a9669",
+    "periods_data/cy3.py": "3dddcbc836965c51fb8a725f5ea7fe7d38829b05d8ba8eb19aaa5243a58976b5",
+    "periods_data/operator_proofs.py": "e86c6056abc3d56a1ca189661a4b05fc16a5da1f8dc5f0209ae33eaea7620e10",
+    "scripts/match_cy3.py": "a2c445821768d00a7ee2f54d443b80bdb5670bbb01dc1da660231f1a7a4cee26"
+  },
+  "normalization": "Factorial-regularized anticanonical coefficients; arrays begin at degree zero.",
+  "comparison": "All available coefficients agree. Paper matches retain their coefficient comparison length.",
+  "notes": "Local machine paths are omitted. No deformation equivalences are inferred. Each edition includes only its selected datasets."
+}
